@@ -124,11 +124,14 @@ test('地图日期、六个剧场标记、支付宝转账与吃饭互动', async
   await open(page, '支付宝');
   await expect(page.locator('.alipay-bill').filter({ hasText: '转账给方小米' })).toContainText('-¥80,000.00');
   await open(page, '抖音');
-  await expect(page.locator('iframe[title="李霄雯｜抖音主页"]')).toHaveAttribute('src', /iesdouyin.com\/share\/user/);
-  await expect(page.locator('.social-profile-embed a')).toHaveCount(0);
+  await expect(page.locator('iframe')).toHaveCount(0);
+  await expect(page.locator('.douyin-ui')).toContainText('六城巡演进行中');
   await open(page, '小红书');
-  await expect(page.locator('iframe[title="李霄雯｜小红书主页"]')).toHaveAttribute('src', 'https://www.xiaohongshu.com/user/profile/5cb689de0000000017030ddb');
-  await expect(page.locator('.social-profile-embed a')).toHaveCount(0);
+  await expect(page.locator('.redbook-masonry')).toContainText('《钱塘里》六城巡演 观演攻略');
+  await open(page, '微博');
+  await expect(page.locator('.app-screen:not([inert])')).toContainText('越剧《钱塘里》六城巡演，正式启程！');
+  await open(page, '相册');
+  await expect(page.getByRole('button', { name: '查看窗边留影' })).toBeVisible();
   for (const chat of story.chats.filter((c: { id: string }) => ['chat-mother', 'chat-xiaomi'].includes(c.id))) {
     await open(page, '微信');
     await page.locator('.wx-chat-row').filter({ hasText: chat.title }).click();
