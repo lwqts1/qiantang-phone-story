@@ -3,7 +3,7 @@
   "id": "qiantang-riverside-phone",
   "title": "钱塘里·樱花大道的手机",
   "description": "以用户提供的越剧《钱塘里》梗概为基础的互动改编。你在樱花大道捡到陆亚飞的手机，沿着行程、照护记录和日记拼起三个女人的经历。具体日期、行程和非聊天文案为改编补写；除作者指定的吃饭互动外，聊天由作者填写。",
-  "revision": 6,
+  "revision": 7,
   "phone": {
     "owner": "陆亚飞",
     "date": "2026-08-18",
@@ -208,6 +208,22 @@
       ],
       "messages": [
         {
+          "id": "m-yf-1",
+          "title": "",
+          "body": "亚飞，今天赵医生查房，说我恢复得比预想的好。你安心上班。",
+          "senderId": "jin-yuefang",
+          "time": "2026-08-04 09:12",
+          "hidden": false
+        },
+        {
+          "id": "m-yf-2",
+          "title": "",
+          "body": "太好了，妈。复诊那天我请了假，陪你一起。",
+          "senderId": "owner",
+          "time": "2026-08-04 09:15",
+          "hidden": true
+        },
+        {
           "id": "dinner-mother-invite",
           "body": "亚飞，今天回家吃饭。菜都买好了，再忙也要好好吃饭。",
           "senderId": "jin-yuefang",
@@ -229,59 +245,22 @@
           "hidden": true
         },
         {
-          "id": "m-yf-1",
-          "title": "",
-          "body": "亚飞，今天赵医生查房，说我恢复得比预想的好。你安心上班。",
-          "senderId": "jin-yuefang",
-          "time": "2026-10-29 09:12"
-        },
-        {
-          "id": "m-yf-2",
-          "title": "",
-          "body": "太好了，妈。复诊那天我请了假，陪你一起。",
-          "senderId": "owner",
-          "time": "2026-10-29 09:15",
-          "hidden": true
-        },
-        {
-          "id": "m-yf-7",
-          "title": "",
-          "body": "亚飞，今天回家吃饭。菜都买好了，排练再忙也要好好吃饭。",
-          "senderId": "jin-yuefang",
-          "time": "2026-10-30 17:30",
-          "hidden": true
-        },
-        {
-          "id": "m-yf-8",
-          "title": "",
-          "body": "知道了，妈。我忙完就回去，你和爸饿了先吃。",
-          "senderId": "owner",
-          "time": "2026-10-30 17:42",
-          "hidden": true
-        },
-        {
-          "id": "m-yf-9",
-          "title": "",
-          "body": "等你回来一起吃，路上慢一点。",
-          "senderId": "jin-yuefang",
-          "time": "2026-10-30 17:43",
-          "hidden": true
-        },
-        {
           "id": "m-yf-3",
           "title": "",
-          "body": "兰子她们在群里商量，要组团去西安看你的首演。",
+          "body": "兰子她们在群里商量，要组团去西安看《钱塘里》。",
           "senderId": "jin-yuefang",
           "time": "2026-10-30 20:05",
-          "hidden": true
+          "hidden": true,
+          "folder": "戏外彩蛋 · 巡演聊天"
         },
         {
           "id": "m-yf-4",
           "title": "",
-          "body": "妈，你们能来我特别开心。我给你们留前排。",
+          "body": "妈，你们能一起去我特别开心。票和座位记得提前确认。",
           "senderId": "owner",
           "time": "2026-10-30 20:08",
-          "hidden": true
+          "hidden": true,
+          "folder": "戏外彩蛋 · 巡演聊天"
         },
         {
           "id": "m-yf-5",
@@ -289,7 +268,8 @@
           "body": "注意身体，别又熬夜。妈不图别的，就盼你平安。",
           "senderId": "jin-yuefang",
           "time": "2026-10-30 20:10",
-          "hidden": true
+          "hidden": true,
+          "folder": "戏外彩蛋 · 巡演聊天"
         },
         {
           "id": "m-yf-6",
@@ -297,7 +277,8 @@
           "body": "知道了，妈。早点休息。",
           "senderId": "owner",
           "time": "2026-10-30 20:12",
-          "hidden": true
+          "hidden": true,
+          "folder": "戏外彩蛋 · 巡演聊天"
         }
       ]
     },
@@ -310,6 +291,46 @@
         "fang-xiaomi"
       ],
       "messages": [
+        {
+          "id": "m-xm-1",
+          "title": "",
+          "body": "亚飞姐，阿姨今天的药和复健都做完了，状态很好。",
+          "senderId": "fang-xiaomi",
+          "time": "2026-07-20 08:30",
+          "hidden": false
+        },
+        {
+          "id": "m-xm-2",
+          "title": "",
+          "body": "辛苦你了，小米。这段时间多亏你在。",
+          "senderId": "owner",
+          "time": "2026-07-20 08:32",
+          "hidden": true
+        },
+        {
+          "id": "m-xm-3",
+          "title": "",
+          "body": "是我该做的。那八万块，我在一点点攒，攒够了就还你。",
+          "senderId": "fang-xiaomi",
+          "time": "2026-07-20 08:35",
+          "hidden": true
+        },
+        {
+          "id": "m-xm-4",
+          "title": "",
+          "body": "说好不用还的，你留着给小宝买奶粉。",
+          "senderId": "owner",
+          "time": "2026-07-20 08:36",
+          "hidden": true
+        },
+        {
+          "id": "m-xm-5",
+          "title": "",
+          "body": "亚飞姐，这钱我一定要还的。你帮我的，我记一辈子。",
+          "senderId": "fang-xiaomi",
+          "time": "2026-07-20 08:38",
+          "hidden": true
+        },
         {
           "id": "dinner-xiaomi-invite",
           "body": "亚飞姐，你今天几点回来吃饭？我好算着时间把菜热上。",
@@ -329,69 +350,6 @@
           "body": "好，我给你留着。到家就能吃。",
           "senderId": "fang-xiaomi",
           "time": "2026-08-06 17:33",
-          "hidden": true
-        },
-        {
-          "id": "m-xm-1",
-          "title": "",
-          "body": "亚飞姐，阿姨今天的药和复健都做完了，状态很好。",
-          "senderId": "fang-xiaomi",
-          "time": "2026-10-29 08:30"
-        },
-        {
-          "id": "m-xm-2",
-          "title": "",
-          "body": "辛苦你了，小米。这段时间多亏你在。",
-          "senderId": "owner",
-          "time": "2026-10-29 08:32",
-          "hidden": true
-        },
-        {
-          "id": "m-xm-3",
-          "title": "",
-          "body": "是我该做的。那八万块，我在一点点攒，攒够了就还你。",
-          "senderId": "fang-xiaomi",
-          "time": "2026-10-29 08:35",
-          "hidden": true
-        },
-        {
-          "id": "m-xm-4",
-          "title": "",
-          "body": "说好不用还的，你留着给小宝买奶粉。",
-          "senderId": "owner",
-          "time": "2026-10-29 08:36",
-          "hidden": true
-        },
-        {
-          "id": "m-xm-5",
-          "title": "",
-          "body": "亚飞姐，这钱我一定要还的。你帮我的，我记一辈子。",
-          "senderId": "fang-xiaomi",
-          "time": "2026-10-29 08:38",
-          "hidden": true
-        },
-        {
-          "id": "m-xm-6",
-          "title": "",
-          "body": "亚飞姐，你今天几点回来吃饭？我好算着时间把菜热上。",
-          "senderId": "fang-xiaomi",
-          "time": "2026-10-31 17:30",
-          "hidden": true
-        },
-        {
-          "id": "m-xm-7",
-          "title": "",
-          "body": "大概六点半。小米，你和妈先吃，不用一直等我。",
-          "senderId": "owner",
-          "time": "2026-10-31 17:31",
-          "hidden": true
-        },
-        {
-          "id": "m-xm-8",
-          "title": "",
-          "body": "好，我给你留着。到家就能吃。",
-          "senderId": "fang-xiaomi",
-          "time": "2026-10-31 17:33",
           "hidden": true
         }
       ]
@@ -420,31 +378,34 @@
           "title": "",
           "body": "亚飞，你妈这几天老念叨你，让你别太累。",
           "senderId": "laolu",
-          "time": "2026-10-29 18:40"
+          "time": "2026-08-04 18:40",
+          "hidden": false
         },
         {
           "id": "m-ll-2",
           "title": "",
           "body": "爸，我没事。你血压记得量，别老坐着下棋。",
           "senderId": "owner",
-          "time": "2026-10-29 18:42",
+          "time": "2026-08-04 18:42",
           "hidden": true
         },
         {
           "id": "m-ll-3",
           "title": "",
-          "body": "你巡演那几场，你妈非要每场都去，我拦不住啊。",
+          "body": "《钱塘里》巡演那几场，你妈都想去看，我拦不住啊。",
           "senderId": "laolu",
           "time": "2026-10-30 19:30",
-          "hidden": true
+          "hidden": true,
+          "folder": "戏外彩蛋 · 巡演聊天"
         },
         {
           "id": "m-ll-4",
           "title": "",
-          "body": "让她来，我给她把票都留好，你们就当出来散心。",
+          "body": "你们量力安排，就当出来散心。先看好演出时间再订行程。",
           "senderId": "owner",
           "time": "2026-10-30 19:32",
-          "hidden": true
+          "hidden": true,
+          "folder": "戏外彩蛋 · 巡演聊天"
         }
       ]
     },
@@ -462,14 +423,15 @@
           "title": "",
           "body": "陆经理，S1 汇报的数据再核一遍，下班前发我。",
           "senderId": "songzong",
-          "time": "2026-10-29 14:02"
+          "time": "2026-07-02 14:02",
+          "hidden": false
         },
         {
           "id": "m-sz-2",
           "title": "",
           "body": "收到，宋总。三点前发您。",
           "senderId": "owner",
-          "time": "2026-10-29 14:05",
+          "time": "2026-07-02 14:05",
           "hidden": true
         },
         {
@@ -477,7 +439,7 @@
           "title": "",
           "body": "别动不动拿总部压我，把项目做出火花来。",
           "senderId": "songzong",
-          "time": "2026-10-29 14:20",
+          "time": "2026-07-02 14:20",
           "hidden": true
         },
         {
@@ -485,7 +447,7 @@
           "title": "",
           "body": "明白，我会用结果说话。",
           "senderId": "owner",
-          "time": "2026-10-29 14:22",
+          "time": "2026-07-02 14:22",
           "hidden": true
         }
       ]
@@ -502,9 +464,11 @@
         {
           "id": "m-lz-1",
           "title": "",
-          "body": "亚飞，巡演开票啦！金老师让我们转你：无锡场姐妹包了一整排。",
+          "body": "亚飞，《钱塘里》巡演开票啦！金老师让我告诉你：姐妹们准备一起去无锡场。",
           "senderId": "lanzi",
-          "time": "2026-10-30 19:00"
+          "time": "2026-10-30 19:00",
+          "folder": "戏外彩蛋 · 巡演聊天",
+          "hidden": true
         },
         {
           "id": "m-lz-2",
@@ -512,23 +476,26 @@
           "body": "兰子姐，太夸张了，替我谢谢大家。",
           "senderId": "owner",
           "time": "2026-10-30 19:02",
-          "hidden": true
+          "hidden": true,
+          "folder": "戏外彩蛋 · 巡演聊天"
         },
         {
           "id": "m-lz-3",
           "title": "",
-          "body": "不夸张，你可是咱钱塘里的骄傲。",
+          "body": "大家能一起去看戏，就很开心。",
           "senderId": "lanzi",
           "time": "2026-10-30 19:05",
-          "hidden": true
+          "hidden": true,
+          "folder": "戏外彩蛋 · 巡演聊天"
         },
         {
           "id": "m-lz-4",
           "title": "",
-          "body": "记得让大家演完来后台找我，我们合影。",
+          "body": "演出结束我们在剧场外合影，留个纪念。",
           "senderId": "owner",
           "time": "2026-10-30 19:07",
-          "hidden": true
+          "hidden": true,
+          "folder": "戏外彩蛋 · 巡演聊天"
         }
       ]
     }
@@ -805,6 +772,30 @@
         }
       },
       {
+        "id": "phone-contact-father",
+        "title": "爸",
+        "body": "问爸爸家里有没有缺东西，约好周末回去。",
+        "time": "2026-08-18 19:10",
+        "kind": "call",
+        "sender": "爸",
+        "meta": {
+          "number": "未填写",
+          "status": "已拨出"
+        }
+      },
+      {
+        "id": "call-father-september",
+        "title": "爸",
+        "time": "2026-08-16 20:00",
+        "body": "爸爸问工作忙不忙，叮嘱按时吃饭。",
+        "sender": "爸",
+        "kind": "call",
+        "meta": {
+          "number": "未填写",
+          "status": "已接听"
+        }
+      },
+      {
         "id": "phone-contact-xiaomi",
         "title": "方小米",
         "body": "小米问晚饭几点准备，亚飞说下班后回来。",
@@ -826,30 +817,6 @@
         "meta": {
           "number": "未填写",
           "status": "已接听"
-        }
-      },
-      {
-        "id": "call-father-september",
-        "title": "爸",
-        "time": "2026-08-16 20:00",
-        "body": "爸爸问工作忙不忙，叮嘱按时吃饭。",
-        "sender": "爸",
-        "kind": "call",
-        "meta": {
-          "number": "未填写",
-          "status": "已接听"
-        }
-      },
-      {
-        "id": "phone-contact-father",
-        "title": "爸",
-        "body": "问爸爸家里有没有缺东西，约好周末回去。",
-        "time": "2026-08-18 19:10",
-        "kind": "call",
-        "sender": "爸",
-        "meta": {
-          "number": "未填写",
-          "status": "已拨出"
         }
       },
       {
@@ -880,7 +847,7 @@
         "id": "call-mother-callback",
         "title": "妈",
         "time": "2026-07-03 18:32",
-        "body": "下班后回拨，妈妈说家里留了饭。",
+        "body": "下班后回拨，确认妈妈在医院吃过饭，晚些时候过去探望。",
         "sender": "妈",
         "kind": "call",
         "meta": {
@@ -995,7 +962,7 @@
       {
         "id": "dy-1",
         "title": "越剧《钱塘里》",
-        "body": "六城巡演进行中，我们在钱塘里见。\n抖音主页：v.douyin.com/8bShKWKpK3E/",
+        "body": "六城巡演即将启程，我们在钱塘里见。\n抖音主页：v.douyin.com/8bShKWKpK3E/",
         "sender": "陆亚飞",
         "time": "2026-10-30 20:00",
         "kind": "video",
@@ -1005,12 +972,13 @@
           "钱塘里见",
           "已抢票"
         ],
-        "folder": "我"
+        "folder": "戏外彩蛋 · 六城巡演",
+        "hidden": true
       },
       {
         "id": "dy-2",
         "title": "《钱塘里》唱段",
-        "body": "第一次挑大梁演越剧，谢谢你们一路的等待。",
+        "body": "把夏天的故事带到秋冬的剧场，谢谢你们一路的等待。",
         "sender": "陆亚飞",
         "time": "2026-10-29 21:00",
         "kind": "video",
@@ -1019,14 +987,15 @@
           "看哭了",
           "李老师加油"
         ],
-        "folder": "我"
+        "folder": "戏外彩蛋 · 六城巡演",
+        "hidden": true
       }
     ],
     "redbook": [
       {
         "id": "rb-tour",
         "title": "《钱塘里》六城巡演 观演攻略",
-        "body": "第一次挑大梁演越剧，有点紧张。整理了一份六城观演清单，姐妹们带上妈妈一起来～",
+        "body": "《钱塘里》六城巡演即将启程。整理了一份六城观演清单，姐妹们带上妈妈一起来～",
         "sender": "陆亚飞",
         "time": "2026-10-30 19:00",
         "likes": 1580,
@@ -1038,7 +1007,9 @@
           "community": "越剧",
           "views": "3.2万",
           "status": "巡演中"
-        }
+        },
+        "hidden": true,
+        "folder": "戏外彩蛋 · 六城巡演"
       },
       {
         "id": "rb-lixiaowen",
@@ -1054,7 +1025,9 @@
         "meta": {
           "community": "越剧",
           "views": "12.8万"
-        }
+        },
+        "hidden": true,
+        "folder": "戏外彩蛋 · 六城巡演"
       }
     ],
     "photos": [
@@ -1084,12 +1057,14 @@
         "meta": {
           "handle": "lixiaowen",
           "reposts": "880"
-        }
+        },
+        "hidden": true,
+        "folder": "戏外彩蛋 · 六城巡演"
       },
       {
         "id": "wb-thanks",
         "title": "",
-        "body": "谢谢妈妈的康复，谢谢小米的陪伴，也谢谢你们一路的等待。这一次，我把《钱塘里》唱给你们听。",
+        "body": "从雨夜的意外，到日常的相互照顾，感谢每一份理解。这个秋冬，邀你走进剧场，看见《钱塘里》的她们。",
         "sender": "陆亚飞",
         "time": "2026-10-29 21:30",
         "likes": 1280,
@@ -1100,7 +1075,9 @@
         "meta": {
           "handle": "lixiaowen",
           "reposts": "310"
-        }
+        },
+        "hidden": true,
+        "folder": "戏外彩蛋 · 六城巡演"
       }
     ],
     "wechat": [
@@ -1116,12 +1093,13 @@
         "comments": [
           "西安见！",
           "李老师加油"
-        ]
+        ],
+        "hidden": true
       },
       {
         "id": "wx-moment-2",
         "title": "",
-        "body": "金老师恢复得越来越好，亚飞姐巡演加油，我们无锡场见。",
+        "body": "金老师恢复得越来越好，《钱塘里》巡演加油，我们无锡场见。",
         "sender": "方小米",
         "time": "2026-10-30 18:40",
         "folder": "朋友圈",
@@ -1130,7 +1108,8 @@
         "comments": [
           "一起加油",
           "钱塘里见"
-        ]
+        ],
+        "hidden": true
       }
     ]
   },
@@ -1734,10 +1713,16 @@
       ]
     },
     {
-      "id": "import-read-m-yf-1",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-yf-2",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-yf-1",
+      "conditions": [
+        {
+          "key": "read:m-yf-1",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -1747,49 +1732,21 @@
       ]
     },
     {
-      "id": "import-read-m-yf-2",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-yf-3",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-yf-2",
-      "actions": [
+      "conditions": [
         {
-          "type": "unlock",
-          "key": "m-yf-7",
+          "key": "read:m-yf-2",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:file-diary",
+          "op": "eq",
           "value": true
         }
-      ]
-    },
-    {
-      "id": "import-read-m-yf-7",
-      "label": "展开导入微信对白",
-      "event": "read",
-      "target": "m-yf-7",
-      "actions": [
-        {
-          "type": "unlock",
-          "key": "m-yf-8",
-          "value": true
-        }
-      ]
-    },
-    {
-      "id": "import-read-m-yf-8",
-      "label": "展开导入微信对白",
-      "event": "read",
-      "target": "m-yf-8",
-      "actions": [
-        {
-          "type": "unlock",
-          "key": "m-yf-9",
-          "value": true
-        }
-      ]
-    },
-    {
-      "id": "import-read-m-yf-9",
-      "label": "展开导入微信对白",
-      "event": "read",
-      "target": "m-yf-9",
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -1799,10 +1756,21 @@
       ]
     },
     {
-      "id": "import-read-m-yf-3",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-yf-4",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-yf-3",
+      "conditions": [
+        {
+          "key": "read:m-yf-3",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -1812,10 +1780,21 @@
       ]
     },
     {
-      "id": "import-read-m-yf-4",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-yf-5",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-yf-4",
+      "conditions": [
+        {
+          "key": "read:m-yf-4",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -1825,10 +1804,21 @@
       ]
     },
     {
-      "id": "import-read-m-yf-5",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-yf-6",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-yf-5",
+      "conditions": [
+        {
+          "key": "read:m-yf-5",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -1838,10 +1828,16 @@
       ]
     },
     {
-      "id": "import-read-m-xm-1",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-xm-2",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-xm-1",
+      "conditions": [
+        {
+          "key": "read:m-xm-1",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -1851,10 +1847,16 @@
       ]
     },
     {
-      "id": "import-read-m-xm-2",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-xm-3",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-xm-2",
+      "conditions": [
+        {
+          "key": "read:m-xm-2",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -1864,10 +1866,16 @@
       ]
     },
     {
-      "id": "import-read-m-xm-3",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-xm-4",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-xm-3",
+      "conditions": [
+        {
+          "key": "read:m-xm-3",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -1877,10 +1885,16 @@
       ]
     },
     {
-      "id": "import-read-m-xm-4",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-xm-5",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-xm-4",
+      "conditions": [
+        {
+          "key": "read:m-xm-4",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -1890,49 +1904,16 @@
       ]
     },
     {
-      "id": "import-read-m-xm-5",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-ll-2",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-xm-5",
-      "actions": [
+      "conditions": [
         {
-          "type": "unlock",
-          "key": "m-xm-6",
+          "key": "read:m-ll-1",
+          "op": "eq",
           "value": true
         }
-      ]
-    },
-    {
-      "id": "import-read-m-xm-6",
-      "label": "展开导入微信对白",
-      "event": "read",
-      "target": "m-xm-6",
-      "actions": [
-        {
-          "type": "unlock",
-          "key": "m-xm-7",
-          "value": true
-        }
-      ]
-    },
-    {
-      "id": "import-read-m-xm-7",
-      "label": "展开导入微信对白",
-      "event": "read",
-      "target": "m-xm-7",
-      "actions": [
-        {
-          "type": "unlock",
-          "key": "m-xm-8",
-          "value": true
-        }
-      ]
-    },
-    {
-      "id": "import-read-m-ll-1",
-      "label": "展开导入微信对白",
-      "event": "read",
-      "target": "m-ll-1",
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -1942,10 +1923,21 @@
       ]
     },
     {
-      "id": "import-read-m-ll-2",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-ll-3",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-ll-2",
+      "conditions": [
+        {
+          "key": "read:m-ll-2",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -1955,10 +1947,21 @@
       ]
     },
     {
-      "id": "import-read-m-ll-3",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-ll-4",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-ll-3",
+      "conditions": [
+        {
+          "key": "read:m-ll-3",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -1968,10 +1971,16 @@
       ]
     },
     {
-      "id": "import-read-m-sz-1",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-sz-2",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-sz-1",
+      "conditions": [
+        {
+          "key": "read:m-sz-1",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -1981,10 +1990,16 @@
       ]
     },
     {
-      "id": "import-read-m-sz-2",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-sz-3",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-sz-2",
+      "conditions": [
+        {
+          "key": "read:m-sz-2",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -1994,10 +2009,16 @@
       ]
     },
     {
-      "id": "import-read-m-sz-3",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-sz-4",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-sz-3",
+      "conditions": [
+        {
+          "key": "read:m-sz-3",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -2007,10 +2028,40 @@
       ]
     },
     {
-      "id": "import-read-m-lz-1",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-lz-1",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-lz-1",
+      "conditions": [
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-lz-1",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "chat-unlock-m-lz-2",
+      "label": "按剧情顺序展开聊天",
+      "event": "read",
+      "conditions": [
+        {
+          "key": "read:m-lz-1",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -2020,10 +2071,21 @@
       ]
     },
     {
-      "id": "import-read-m-lz-2",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-lz-3",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-lz-2",
+      "conditions": [
+        {
+          "key": "read:m-lz-2",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
@@ -2033,14 +2095,129 @@
       ]
     },
     {
-      "id": "import-read-m-lz-3",
-      "label": "展开导入微信对白",
+      "id": "chat-unlock-m-lz-4",
+      "label": "按剧情顺序展开聊天",
       "event": "read",
-      "target": "m-lz-3",
+      "conditions": [
+        {
+          "key": "read:m-lz-3",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "actions": [
         {
           "type": "unlock",
           "key": "m-lz-4",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "promo-unlock-wb-tour",
+      "label": "剧情之后开放巡演宣传",
+      "event": "read",
+      "target": "file-diary",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wb-tour",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "promo-unlock-wb-thanks",
+      "label": "剧情之后开放巡演宣传",
+      "event": "read",
+      "target": "file-diary",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wb-thanks",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "promo-unlock-rb-tour",
+      "label": "剧情之后开放巡演宣传",
+      "event": "read",
+      "target": "file-diary",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "rb-tour",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "promo-unlock-rb-lixiaowen",
+      "label": "剧情之后开放巡演宣传",
+      "event": "read",
+      "target": "file-diary",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "rb-lixiaowen",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "promo-unlock-dy-1",
+      "label": "剧情之后开放巡演宣传",
+      "event": "read",
+      "target": "file-diary",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "dy-1",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "promo-unlock-dy-2",
+      "label": "剧情之后开放巡演宣传",
+      "event": "read",
+      "target": "file-diary",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "dy-2",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "promo-unlock-wx-moment-1",
+      "label": "剧情之后开放巡演宣传",
+      "event": "read",
+      "target": "file-diary",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wx-moment-1",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "promo-unlock-wx-moment-2",
+      "label": "剧情之后开放巡演宣传",
+      "event": "read",
+      "target": "file-diary",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "wx-moment-2",
           "value": true
         }
       ]
@@ -2791,124 +2968,8 @@
       ]
     },
     {
-      "name": "导入微信五组聊天全部展开后通关",
+      "name": "剧情后开放巡演聊天与动态，去重后全部可读",
       "steps": [
-        {
-          "event": "read",
-          "target": "m-yf-1"
-        },
-        {
-          "event": "read",
-          "target": "m-yf-2"
-        },
-        {
-          "event": "read",
-          "target": "m-yf-7"
-        },
-        {
-          "event": "read",
-          "target": "m-yf-8"
-        },
-        {
-          "event": "read",
-          "target": "m-yf-9"
-        },
-        {
-          "event": "read",
-          "target": "m-yf-3"
-        },
-        {
-          "event": "read",
-          "target": "m-yf-4"
-        },
-        {
-          "event": "read",
-          "target": "m-yf-5"
-        },
-        {
-          "event": "read",
-          "target": "m-yf-6"
-        },
-        {
-          "event": "read",
-          "target": "m-xm-1"
-        },
-        {
-          "event": "read",
-          "target": "m-xm-2"
-        },
-        {
-          "event": "read",
-          "target": "m-xm-3"
-        },
-        {
-          "event": "read",
-          "target": "m-xm-4"
-        },
-        {
-          "event": "read",
-          "target": "m-xm-5"
-        },
-        {
-          "event": "read",
-          "target": "m-xm-6"
-        },
-        {
-          "event": "read",
-          "target": "m-xm-7"
-        },
-        {
-          "event": "read",
-          "target": "m-xm-8"
-        },
-        {
-          "event": "read",
-          "target": "m-ll-1"
-        },
-        {
-          "event": "read",
-          "target": "m-ll-2"
-        },
-        {
-          "event": "read",
-          "target": "m-ll-3"
-        },
-        {
-          "event": "read",
-          "target": "m-ll-4"
-        },
-        {
-          "event": "read",
-          "target": "m-sz-1"
-        },
-        {
-          "event": "read",
-          "target": "m-sz-2"
-        },
-        {
-          "event": "read",
-          "target": "m-sz-3"
-        },
-        {
-          "event": "read",
-          "target": "m-sz-4"
-        },
-        {
-          "event": "read",
-          "target": "m-lz-1"
-        },
-        {
-          "event": "read",
-          "target": "m-lz-2"
-        },
-        {
-          "event": "read",
-          "target": "m-lz-3"
-        },
-        {
-          "event": "read",
-          "target": "m-lz-4"
-        },
         {
           "event": "read",
           "target": "note-tonight"
@@ -2961,6 +3022,130 @@
           "target": "file-diary"
         },
         {
+          "event": "read",
+          "target": "m-yf-1"
+        },
+        {
+          "event": "read",
+          "target": "m-yf-2"
+        },
+        {
+          "event": "read",
+          "target": "m-yf-3"
+        },
+        {
+          "event": "read",
+          "target": "m-yf-4"
+        },
+        {
+          "event": "read",
+          "target": "m-yf-5"
+        },
+        {
+          "event": "read",
+          "target": "m-yf-6"
+        },
+        {
+          "event": "read",
+          "target": "m-xm-1"
+        },
+        {
+          "event": "read",
+          "target": "m-xm-2"
+        },
+        {
+          "event": "read",
+          "target": "m-xm-3"
+        },
+        {
+          "event": "read",
+          "target": "m-xm-4"
+        },
+        {
+          "event": "read",
+          "target": "m-xm-5"
+        },
+        {
+          "event": "read",
+          "target": "m-ll-1"
+        },
+        {
+          "event": "read",
+          "target": "m-ll-2"
+        },
+        {
+          "event": "read",
+          "target": "m-ll-3"
+        },
+        {
+          "event": "read",
+          "target": "m-ll-4"
+        },
+        {
+          "event": "read",
+          "target": "m-sz-1"
+        },
+        {
+          "event": "read",
+          "target": "m-sz-2"
+        },
+        {
+          "event": "read",
+          "target": "m-sz-3"
+        },
+        {
+          "event": "read",
+          "target": "m-sz-4"
+        },
+        {
+          "event": "read",
+          "target": "m-lz-1"
+        },
+        {
+          "event": "read",
+          "target": "m-lz-2"
+        },
+        {
+          "event": "read",
+          "target": "m-lz-3"
+        },
+        {
+          "event": "read",
+          "target": "m-lz-4"
+        },
+        {
+          "event": "read",
+          "target": "wb-tour"
+        },
+        {
+          "event": "read",
+          "target": "wb-thanks"
+        },
+        {
+          "event": "read",
+          "target": "rb-tour"
+        },
+        {
+          "event": "read",
+          "target": "rb-lixiaowen"
+        },
+        {
+          "event": "read",
+          "target": "dy-1"
+        },
+        {
+          "event": "read",
+          "target": "dy-2"
+        },
+        {
+          "event": "read",
+          "target": "wx-moment-1"
+        },
+        {
+          "event": "read",
+          "target": "wx-moment-2"
+        },
+        {
           "choose": "return-after-diary"
         }
       ],
@@ -2971,9 +3156,6 @@
         "note-return",
         "file-diary",
         "m-yf-2",
-        "m-yf-7",
-        "m-yf-8",
-        "m-yf-9",
         "m-yf-3",
         "m-yf-4",
         "m-yf-5",
@@ -2982,18 +3164,24 @@
         "m-xm-3",
         "m-xm-4",
         "m-xm-5",
-        "m-xm-6",
-        "m-xm-7",
-        "m-xm-8",
         "m-ll-2",
         "m-ll-3",
         "m-ll-4",
         "m-sz-2",
         "m-sz-3",
         "m-sz-4",
+        "m-lz-1",
         "m-lz-2",
         "m-lz-3",
-        "m-lz-4"
+        "m-lz-4",
+        "wb-tour",
+        "wb-thanks",
+        "rb-tour",
+        "rb-lixiaowen",
+        "dy-1",
+        "dy-2",
+        "wx-moment-1",
+        "wx-moment-2"
       ]
     }
   ]

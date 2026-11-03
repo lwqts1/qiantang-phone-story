@@ -22,6 +22,10 @@
 
 ## 编辑与验证
 
-编辑story.json；运行npm run dev可实时预览，验证失败时保留上一份有效版本。变更剧情时增加revision，重启旧游玩进度。运行npm run story:validate、npm run story:test和npm run build。脚本含10条通关路径；浏览器验证使用stories/template/qa/playwright.config.ts。
+编辑story.json；运行npm run dev可实时预览，验证失败时保留上一份有效版本。变更剧情时增加revision，重启旧游玩进度。运行npm run story:validate、npm run story:test和npm run build。脚本含11条通关路径；浏览器验证使用stories/template/qa/playwright.config.ts。
 
 线上发布目标：https://lwqts1.github.io/qiantang-phone-story/ 。本地修改不会自动发布，需要将通过验证的修改同步至lwqts1/qiantang-phone-story的main分支。
+
+## 微信时间线整理
+
+重复的妈妈与小米吃饭对白各保留一组。S1汇报在7月2日，借款后还款讨论在7月20日，康复问候在8月4日，吃饭互动在8月5—6日。十月底的巡演聊天、朋友圈及三平台宣传动态在读完剧情日记后开放。

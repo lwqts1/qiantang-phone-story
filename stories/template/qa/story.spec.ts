@@ -40,7 +40,7 @@ async function prepare(page: Page) {
   await page.goto('/');
   await unlock(page);
   await open(page, '微信');
-  const visibleChats = story.chats.filter((chat: { app: string; messages: unknown[] }) => chat.app === 'wechat' && chat.messages.length > 0);
+  const visibleChats = story.chats.filter((chat: { app: string; messages: { hidden?: boolean }[] }) => chat.app === 'wechat' && chat.messages.some(m => !m.hidden));
   await expect(page.locator('.wx-chat-row')).toHaveCount(visibleChats.length);
   await open(page, '备忘录');
   await expect(page.locator('.notes-list')).not.toContainText('没有说出口的事');
@@ -125,11 +125,11 @@ test('地图日期、六个剧场标记、支付宝转账与吃饭互动', async
   await expect(page.locator('.alipay-bill').filter({ hasText: '转账给方小米' })).toContainText('-¥80,000.00');
   await open(page, '抖音');
   await expect(page.locator('iframe')).toHaveCount(0);
-  await expect(page.locator('.douyin-ui')).toContainText('六城巡演进行中');
+  await expect(page.locator('.douyin-ui')).not.toContainText('六城巡演即将启程');
   await open(page, '小红书');
-  await expect(page.locator('.redbook-masonry')).toContainText('《钱塘里》六城巡演 观演攻略');
+  await expect(page.locator('.redbook-masonry')).not.toContainText('《钱塘里》六城巡演 观演攻略');
   await open(page, '微博');
-  await expect(page.locator('.app-screen:not([inert])')).toContainText('越剧《钱塘里》六城巡演，正式启程！');
+  await expect(page.locator('.app-screen:not([inert])')).not.toContainText('越剧《钱塘里》六城巡演，正式启程！');
   await open(page, '相册');
   await expect(page.getByRole('button', { name: '查看窗边留影' })).toBeVisible();
   for (const chat of story.chats.filter((c: { id: string }) => ['chat-mother', 'chat-xiaomi'].includes(c.id))) {
