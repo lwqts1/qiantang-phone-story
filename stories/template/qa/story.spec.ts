@@ -113,11 +113,11 @@ test('移动视口：拒接、直接归还和重新开始', async ({ page }) => 
   await expect(page.locator('.story-overlay')).toHaveCount(0);
 });
 
-test('地图日期、无定位标记、支付宝转账与吃饭互动', async ({ page }) => {
+test('地图日期、六个剧场标记、支付宝转账与吃饭互动', async ({ page }) => {
   await page.goto('/');
   await unlock(page);
   await open(page, '地图');
-  await expect(page.locator('.map-pin')).toHaveCount(0);
+  await expect(page.locator('.map-pin')).toHaveCount(6);
   for (const item of story.content.calendar) {
     await expect(page.locator('.map-places button').filter({ hasText: item.title })).toContainText(item.time);
   }
