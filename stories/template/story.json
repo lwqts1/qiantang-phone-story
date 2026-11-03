@@ -1,0 +1,1494 @@
+{
+  "scriptVersion": 1,
+  "id": "qiantang-riverside-phone",
+  "title": "钱塘里·樱花大道的手机",
+  "description": "以用户提供的越剧《钱塘里》梗概为基础的互动改编。你在樱花大道捡到陆亚飞的手机，沿着行程、照护记录和日记拼起三个女人的经历。具体日期、行程和非聊天文案为改编补写；除作者指定的吃饭互动外，聊天由作者填写。",
+  "revision": 4,
+  "phone": {
+    "owner": "陆亚飞",
+    "date": "2026-11-01",
+    "time": "21:20",
+    "passcode": "",
+    "wallpaper": "sage",
+    "theme": "light",
+    "battery": 32,
+    "network": "5G",
+    "notifications": true
+  },
+  "installedApps": [
+    {
+      "id": "notes",
+      "name": "备忘录",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "wechat",
+      "name": "微信",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "mail",
+      "name": "邮件",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "files",
+      "name": "文件",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "wallet",
+      "name": "钱包",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "maps",
+      "name": "地图",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "contacts",
+      "name": "通讯录",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "phone",
+      "name": "电话",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "settings",
+      "name": "设置",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "calendar",
+      "name": "日历",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "alipay",
+      "name": "支付宝",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "redbook",
+      "name": "小红书",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    }
+  ],
+  "contacts": [
+    {
+      "id": "jin-yuefang",
+      "name": "金月芳",
+      "bio": "母亲，老年模特队成员，正在住院。"
+    },
+    {
+      "id": "fang-xiaomi",
+      "name": "方小米",
+      "bio": "母亲住院期间的护工，家有半岁的女儿。"
+    },
+    {
+      "id": "chen-yunhe",
+      "name": "陈运河",
+      "bio": "方小米的丈夫，外卖骑手。"
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat-mother",
+      "app": "wechat",
+      "title": "妈妈",
+      "participants": [
+        "owner",
+        "jin-yuefang"
+      ],
+      "messages": [
+        {
+          "id": "dinner-mother-invite",
+          "body": "亚飞，今天回家吃饭。菜都买好了，再忙也要好好吃饭。",
+          "senderId": "jin-yuefang",
+          "time": "2026-10-30 17:30",
+          "hidden": false
+        },
+        {
+          "id": "dinner-mother-reply",
+          "body": "知道了，妈。我忙完就回去，你和爸饿了先吃。",
+          "senderId": "owner",
+          "time": "2026-10-30 17:32",
+          "hidden": true
+        },
+        {
+          "id": "dinner-mother-followup",
+          "body": "等你回来一起吃，路上慢一点。",
+          "senderId": "jin-yuefang",
+          "time": "2026-10-30 17:33",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "chat-xiaomi",
+      "app": "wechat",
+      "title": "方小米",
+      "participants": [
+        "owner",
+        "fang-xiaomi"
+      ],
+      "messages": [
+        {
+          "id": "dinner-xiaomi-invite",
+          "body": "亚飞，你今天几点回来吃饭？我好算着时间把菜热上。",
+          "senderId": "fang-xiaomi",
+          "time": "2026-10-31 17:30",
+          "hidden": false
+        },
+        {
+          "id": "dinner-xiaomi-reply",
+          "body": "大概六点半。小米，你和妈先吃，不用一直等我。",
+          "senderId": "owner",
+          "time": "2026-10-31 17:32",
+          "hidden": true
+        },
+        {
+          "id": "dinner-xiaomi-followup",
+          "body": "好，我给你留着。到家就能吃。",
+          "senderId": "fang-xiaomi",
+          "time": "2026-10-31 17:33",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "chat-yunhe",
+      "app": "wechat",
+      "title": "陈运河",
+      "participants": [
+        "owner",
+        "chen-yunhe"
+      ],
+      "messages": []
+    }
+  ],
+  "content": {
+    "notes": [
+      {
+        "id": "note-tonight",
+        "title": "今晚｜去江边走走",
+        "body": "工作交接文件已经留好，工牌放在包里。\n\n我想沿樱花大道走一会儿，买一罐酒，等心里安静些再回去。手机不要再静音，妈可能还会找我。\n\n没做完的事：\n· 核对备忘录里的「出差行程」，取消已经不用的安排。\n· 看一眼邮件里的项目通知。\n· 把「住院照护交接」和钱包里的垫付记录整理在一起。\n\n有些话我以为晚一点再说就会容易些，结果一天比一天难说。",
+        "time": "2026-11-01 20:50"
+      },
+      {
+        "id": "note-trip",
+        "title": "出差行程｜s1项目会（已取消）",
+        "body": "原定出发：7月9日；返杭：7月10日。\n地点：广州，总部会议室。\n\n7月9日 · 周六\n07:00　杭州出发前，确认母亲当天的照护安排。\n08:00—10:00　杭州萧山 → 广州白云，航班待行政确认。\n10:30　入住酒店、整理项目材料。\n13:30　合作方项目对接：进度、预算、后续执行。\n17:30　整理会议纪要。\n20:00　给母亲打电话。\n\n7月10日 · 周日\n09:30　内部复盘，核对尚未落实的事项。\n12:00　退房。\n14:00—16:00　广州白云 → 杭州萧山，航班待定。\n18:00　去医院看母亲。\n\n行前清单\n身份证、电脑、充电器；照护交接单；母亲需要的换洗衣物提前放好。酒店、车票尚未出票，不记报销金额。\n\n7月3日更新\n项目暂停，这趟出差停止。取消会议室与住宿预留，向行政交接资料。住院照护安排也要重新核对，不能照旧表执行。\n\n归档提醒：私人备忘录沿用原定出发日的四位月日作密码。",
+        "time": "2026-07-03 17:20",
+        "folder": "工作"
+      },
+      {
+        "id": "note-care",
+        "title": "住院照护交接",
+        "body": "7月3日\n妈叫金月芳，参加老年模特队。她最不喜欢别人一进门就说「你歇着，别动」。先问她需要什么。\n\n小米这几天留在医院照护。她家里有个刚满半岁的女儿，不能把她的夜晚全占了。给她留出回家和休息的时间。\n\n3月31日补记\n妈开始等小米来，连模特队以前的事也愿意讲给她听。小米记得她的习惯，比我的交接单还仔细。\n\n费用单独放在钱包，先把母亲的照护接上，之后再把责任说清。那场雨夜的经过，我另外记了一份。\n\n7月3日补记\n旧安排暂停。妈已经让小米离开，我得自己重新安排照护。",
+        "time": "2026-07-03 18:20",
+        "folder": "家里"
+      },
+      {
+        "id": "note-rain",
+        "title": "那场雨｜我知道的经过",
+        "body": "3月26日是个雨夜。\n\n小米急着回家照顾半岁的女儿，骑电动车时走神，撞到了正在过马路的妈。\n\n她曾离开医院，后来又回来了。她没有因为回来就变得无辜，但她到底没有把这件事丢给别人。\n\n我让她留下做护工，却没把她是谁告诉妈。我当时想着，妈有人照顾，小米也有一个留下承担责任的办法。\n\n后来妈把小米当成了女儿。我才发现，「以后再解释」并不会替我把解释变得容易。",
+        "time": "2026-04-02 23:10",
+        "hidden": true,
+        "folder": "家里"
+      },
+      {
+        "id": "note-truth",
+        "title": "没有说出口的事",
+        "body": "今天妈知道了。\n\n她难过的，不只是被撞伤。她以为我和小米一起把她蒙在鼓里，那些照料、亲近和信任，全被她重新问了一遍。她把小米赶走了。\n\n我替她决定什么可以知道，竟还以为是在替她省心。\n\n项目也取消了。我已经提出辞职，工作交接还要完成。那些已经排好的会议、明天该坐的车，现在都不用赶了。\n\n小米一家要面对的账，陈运河接再多夜单也填不平。我有我的难处，却不能把她的难处想得那么轻。\n\n我去江边。今晚先不急着给任何事情找一个漂亮的说法。",
+        "time": "2026-04-03 20:40",
+        "hidden": true,
+        "password": "0404",
+        "folder": "私人"
+      },
+      {
+        "id": "note-return",
+        "title": "江边｜归还手机的地点",
+        "body": "樱花大道，靠江的长椅。\n\n你顺着手机里保存的地点望去，看见了和机主资料相符的陆亚飞。她正在附近找手机。另一头，方小米也沿着江边走来。\n\n你可以现在归还手机。若想再拼上最后一页，文件 App 中保存着方小米托亚飞转交的日记摘记。\n\n你只是这个夜晚的过路人，她们的决定仍由她们自己作出。",
+        "time": "2026-04-03 20:50",
+        "hidden": true,
+        "sender": "故事旁白",
+        "folder": "这一夜"
+      }
+    ],
+    "mail": [
+      {
+        "id": "mail-cancel",
+        "title": "项目取消通知",
+        "body": "项目终止，原定4月4日至5日上海对接会取消。请停止相关差旅安排，移交已完成的材料，后续事项由部门统一处理。",
+        "time": "2026-04-03 15:30",
+        "sender": "美乙团 · 项目事务",
+        "folder": "收件箱",
+        "meta": {
+          "email": "project@example.invalid",
+          "recipient": "陆亚飞"
+        }
+      },
+      {
+        "id": "mail-handover",
+        "title": "离职交接清单（已提交）",
+        "body": "已提交离职申请。项目资料、费用记录、待办清单移交部门；出差预留取消，未出票、未发生差旅报销。交接完成日期待确认。",
+        "time": "2026-04-03 18:05",
+        "sender": "陆亚飞",
+        "folder": "已发送",
+        "meta": {
+          "email": "yafei@example.invalid",
+          "recipient": "部门行政"
+        }
+      }
+    ],
+    "wallet": [
+      {
+        "id": "bill-hospital",
+        "title": "住院垫付记录",
+        "body": "母亲的住院费用，由我先垫付。金额等正式清单出来后逐项核对，这条不是最终赔偿结算。\n\n小米家里的钱要顾孩子和日常开销，陈运河送外卖、接夜单，仍然难以承担医疗费和赔偿。\n\n先记账，不在病床前催她。和「住院照护交接」放在一起看。",
+        "time": "2026-04-02 19:40",
+        "folder": "交易",
+        "meta": {
+          "amount": "待核对",
+          "status": "垫付记录"
+        }
+      },
+      {
+        "id": "bill-trip",
+        "title": "上海差旅预留取消",
+        "body": "4月4日—5日行程取消；车票及酒店尚未付款。本条只作行程核对，不计入实际支出。",
+        "time": "2026-04-03 17:30",
+        "folder": "交易",
+        "meta": {
+          "amount": "¥0.00",
+          "status": "未发生支出"
+        }
+      }
+    ],
+    "files": [
+      {
+        "id": "file-diary",
+        "title": "方小米的日记｜转交摘记",
+        "body": "转交说明：小米交给亚飞，请她带给金月芳。以下为日记摘记。\n\n3月26日\n我一边骑车一边想着孩子，雨落在脸上，心早就跑回家了。等我回过神来，阿姨已经倒下。我跑过，又回来了。回去的路比来时还难走，可这件事是我做的。\n\n3月31日\n阿姨今天讲起走模特步的事情，眼睛亮起来。她让我回家看看孩子。我照顾她，不是想拿这些抵掉那场事故。只是她疼的时候，我不能装作没看见。\n\n4月3日\n阿姨让我走。我想解释，又觉得最该先说的那句话，已经晚了太多天。运河还在跑单，孩子还在等我。我不知道钱从哪里来，但我不想再逃。\n\n如果她肯读到这里，我想让她知道：照顾她的那些日子，我没有把她只当成一笔债。",
+        "time": "2026-04-03 20:30",
+        "hidden": true,
+        "sender": "方小米",
+        "meta": {
+          "extension": "TXT",
+          "size": "日记摘记"
+        }
+      }
+    ],
+    "maps": [
+      {
+        "id": "map-river",
+        "title": "樱花大道｜钱塘江边",
+        "body": "",
+        "time": "2026-11-01 20:50",
+        "meta": {
+          "address": "杭州 · 钱塘江边 · 樱花大道",
+          "x": "62",
+          "y": "58",
+          "showMarker": "false"
+        }
+      },
+      {
+        "id": "map-theatre-xian",
+        "title": "西安｜开元大剧院",
+        "body": "陕西省西安市凤城九路34号",
+        "meta": {
+          "address": "陕西省西安市凤城九路34号",
+          "showMarker": "false"
+        },
+        "time": "2026-11-01 19:30"
+      },
+      {
+        "id": "map-theatre-wuxi",
+        "title": "无锡｜无锡大剧院",
+        "body": "江苏省无锡市经开区大剧院路1号",
+        "meta": {
+          "address": "江苏省无锡市经开区大剧院路1号",
+          "showMarker": "false"
+        },
+        "time": "2026-11-08 15:00"
+      },
+      {
+        "id": "map-theatre-jinan",
+        "title": "济南｜山东省会大剧院",
+        "body": "山东省济南市槐荫区日照路2299号",
+        "meta": {
+          "address": "山东省济南市槐荫区日照路2299号",
+          "showMarker": "false"
+        },
+        "time": "2026-11-15 15:00"
+      },
+      {
+        "id": "map-theatre-nanchang",
+        "title": "南昌｜南昌保利大剧院",
+        "body": "江西省南昌市红谷滩区隆安一街与环湖路交叉口南180米",
+        "meta": {
+          "address": "江西省南昌市红谷滩区隆安一街与环湖路交叉口南180米",
+          "showMarker": "false"
+        },
+        "time": "2026-11-22 15:00"
+      },
+      {
+        "id": "map-theatre-guangzhou",
+        "title": "广州｜广州白云国际会议中心世纪大会堂",
+        "body": "广东省广州市白云区白云大道南1039—1045号，白云国际会议中心4号楼",
+        "meta": {
+          "address": "广东省广州市白云区白云大道南1039—1045号，白云国际会议中心4号楼",
+          "showMarker": "false"
+        },
+        "time": "2026-11-29 15:00"
+      },
+      {
+        "id": "map-theatre-fuzhou",
+        "title": "福州｜福州海峡文化艺术中心",
+        "body": "福建省福州市仓山区南江滨东大道1号",
+        "meta": {
+          "address": "福建省福州市仓山区南江滨东大道1号",
+          "showMarker": "false"
+        },
+        "time": "2026-12-06 15:00"
+      }
+    ],
+    "phone": [
+      {
+        "id": "call-xiaomi",
+        "title": "方小米",
+        "body": "亚飞，你在哪里？我在江边，想找你说说话。",
+        "time": "2026-11-01 20:50",
+        "hidden": true,
+        "kind": "call",
+        "sender": "方小米",
+        "meta": {
+          "status": "剧情来电",
+          "number": "未填写"
+        }
+      },
+      {
+        "id": "phone-contact-xiaomi",
+        "title": "方小米",
+        "body": "小米问晚饭几点准备，亚飞说下班后回来。",
+        "time": "2026-10-31 17:25",
+        "kind": "call",
+        "sender": "方小米",
+        "meta": {
+          "number": "未填写",
+          "status": "已接听"
+        }
+      },
+      {
+        "id": "phone-contact-mother",
+        "title": "妈",
+        "body": "妈喊亚飞回家吃饭，提醒她别总拿面包凑合。",
+        "time": "2026-10-30 17:40",
+        "kind": "call",
+        "sender": "妈",
+        "meta": {
+          "number": "未填写",
+          "status": "已接听"
+        }
+      },
+      {
+        "id": "call-father-september",
+        "title": "爸",
+        "time": "2026-09-06 20:00",
+        "body": "爸爸问工作忙不忙，叮嘱按时吃饭。",
+        "sender": "爸",
+        "kind": "call",
+        "meta": {
+          "number": "未填写",
+          "status": "已接听"
+        }
+      },
+      {
+        "id": "phone-contact-father",
+        "title": "爸",
+        "body": "问爸爸家里有没有缺东西，约好周末回去。",
+        "time": "2026-08-18 19:10",
+        "kind": "call",
+        "sender": "爸",
+        "meta": {
+          "number": "未填写",
+          "status": "已拨出"
+        }
+      },
+      {
+        "id": "call-xiaomi-july",
+        "title": "方小米",
+        "time": "2026-07-12 12:15",
+        "body": "小米说阿姨已经吃过午饭，让亚飞安心忙工作。",
+        "sender": "方小米",
+        "kind": "call",
+        "meta": {
+          "number": "未填写",
+          "status": "已接听"
+        }
+      },
+      {
+        "id": "phone-contact-song",
+        "title": "宋总",
+        "body": "宋总来电核对项目材料与工作交接。",
+        "time": "2026-07-09 09:20",
+        "kind": "call",
+        "sender": "宋总",
+        "meta": {
+          "number": "未填写",
+          "status": "已接听"
+        }
+      },
+      {
+        "id": "call-mother-callback",
+        "title": "妈",
+        "time": "2026-07-03 18:32",
+        "body": "下班后回拨，妈妈说家里留了饭。",
+        "sender": "妈",
+        "kind": "call",
+        "meta": {
+          "number": "未填写",
+          "status": "已拨出"
+        }
+      },
+      {
+        "id": "call-mother-july",
+        "title": "妈",
+        "time": "2026-07-03 18:05",
+        "body": "开会时没接到妈妈的电话。",
+        "sender": "妈",
+        "kind": "call",
+        "meta": {
+          "number": "未填写",
+          "status": "未接来电"
+        }
+      }
+    ],
+    "calendar": [
+      {
+        "id": "calendar-2026-11-01",
+        "title": "西安｜开元大剧院",
+        "body": "日期：2026年11月1日\n时间：19:30\n城市：西安\n地点：开元大剧院",
+        "time": "2026-11-01 19:30",
+        "sender": "陆亚飞",
+        "kind": "event",
+        "meta": {
+          "location": "西安 · 开元大剧院"
+        }
+      },
+      {
+        "id": "calendar-2026-11-08",
+        "title": "无锡｜无锡大剧院",
+        "body": "日期：2026年11月8日\n时间：15:00\n城市：无锡\n地点：无锡大剧院",
+        "time": "2026-11-08 15:00",
+        "sender": "陆亚飞",
+        "kind": "event",
+        "meta": {
+          "location": "无锡 · 无锡大剧院"
+        }
+      },
+      {
+        "id": "calendar-2026-11-15",
+        "title": "济南｜山东省会大剧院",
+        "body": "日期：2026年11月15日\n时间：15:00\n城市：济南\n地点：山东省会大剧院",
+        "time": "2026-11-15 15:00",
+        "sender": "陆亚飞",
+        "kind": "event",
+        "meta": {
+          "location": "济南 · 山东省会大剧院"
+        }
+      },
+      {
+        "id": "calendar-2026-11-22",
+        "title": "南昌｜南昌保利大剧院",
+        "body": "日期：2026年11月22日\n时间：15:00\n城市：南昌\n地点：南昌保利大剧院",
+        "time": "2026-11-22 15:00",
+        "sender": "陆亚飞",
+        "kind": "event",
+        "meta": {
+          "location": "南昌 · 南昌保利大剧院"
+        }
+      },
+      {
+        "id": "calendar-2026-11-29",
+        "title": "广州｜广州白云国际会议中心世纪大会堂",
+        "body": "日期：2026年11月29日\n时间：15:00\n城市：广州\n地点：广州白云国际会议中心世纪大会堂",
+        "time": "2026-11-29 15:00",
+        "sender": "陆亚飞",
+        "kind": "event",
+        "meta": {
+          "location": "广州 · 广州白云国际会议中心世纪大会堂"
+        }
+      },
+      {
+        "id": "calendar-2026-12-06",
+        "title": "福州｜福州海峡文化艺术中心",
+        "body": "日期：2026年12月6日\n时间：15:00\n城市：福州\n地点：福州海峡文化艺术中心",
+        "time": "2026-12-06 15:00",
+        "sender": "陆亚飞",
+        "kind": "event",
+        "meta": {
+          "location": "福州 · 福州海峡文化艺术中心"
+        }
+      }
+    ],
+    "alipay": [
+      {
+        "id": "alipay-transfer-xiaomi-80000",
+        "title": "转账给方小米",
+        "body": "付款人：陆亚飞\n收款人：方小米\n转账金额：¥80,000.00\n转账状态：转账成功",
+        "time": "2026-07-12 14:30",
+        "sender": "陆亚飞",
+        "kind": "transfer",
+        "folder": "账单",
+        "meta": {
+          "merchant": "方小米",
+          "amount": "-¥80,000.00",
+          "status": "转账成功"
+        }
+      }
+    ],
+    "douyin": [
+      {
+        "id": "douyin-li-xiaowen-profile",
+        "title": "李霄雯｜抖音主页",
+        "body": "李霄雯的在线抖音主页，在手机内显示。",
+        "sender": "李霄雯",
+        "time": "2026-11-01 12:00",
+        "folder": "关注",
+        "meta": {
+          "profileUrl": "https://www.iesdouyin.com/share/user/MS4wLjABAAAAbA7gCYnLRiAt0kPxmKN4Bs574eAT90AlVqeH0-HIVA4"
+        }
+      }
+    ],
+    "redbook": [
+      {
+        "id": "redbook-li-xiaowen-profile",
+        "title": "李霄雯｜小红书主页",
+        "body": "李霄雯的在线小红书主页，在手机内显示。",
+        "sender": "李霄雯",
+        "time": "2026-11-01 12:00",
+        "folder": "关注",
+        "meta": {
+          "profileUrl": "https://www.xiaohongshu.com/user/profile/5cb689de0000000017030ddb"
+        }
+      }
+    ]
+  },
+  "variables": {
+    "diaryChosen": false,
+    "liveClockTimezone": "Asia/Shanghai"
+  },
+  "events": [
+    {
+      "id": "start-river",
+      "label": "樱花大道拾得手机",
+      "type": "start",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "樱花大道的长椅旁，你捡到陆亚飞遗失的手机。轻触解锁，从备忘录「今晚｜去江边走走」开始。"
+        }
+      ]
+    },
+    {
+      "id": "read-tonight",
+      "label": "今晚的三项未竟事",
+      "event": "read",
+      "target": "note-tonight",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "先查看出差行程、项目邮件、照护交接和钱包里的住院垫付记录。阅读顺序不限。"
+        }
+      ]
+    },
+    {
+      "id": "gate-rain",
+      "label": "照护与费用拼出雨夜",
+      "event": "read",
+      "conditions": [
+        {
+          "key": "read:note-care",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:bill-hospital",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-rain",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "备忘录出现「那场雨｜我知道的经过」。"
+        }
+      ]
+    },
+    {
+      "id": "gate-truth",
+      "label": "把家事和工作放在一起",
+      "event": "read",
+      "conditions": [
+        {
+          "key": "read:note-rain",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:note-trip",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:mail-cancel",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-truth",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "备忘录出现「没有说出口的事」。密码提示在出差行程末尾。"
+        }
+      ]
+    },
+    {
+      "id": "read-truth",
+      "label": "看见亚飞的处境",
+      "event": "read",
+      "target": "note-truth",
+      "next": [
+        "delay-call"
+      ]
+    },
+    {
+      "id": "delay-call",
+      "label": "江风里的铃声",
+      "type": "delay",
+      "delayMs": 1800,
+      "actions": [
+        {
+          "type": "call",
+          "key": "call-xiaomi",
+          "value": "方小米"
+        }
+      ]
+    },
+    {
+      "id": "call-ended",
+      "label": "挂断后继续寻找",
+      "event": "callEnded",
+      "target": "call-xiaomi",
+      "next": [
+        "reveal-return"
+      ]
+    },
+    {
+      "id": "call-declined",
+      "label": "拒接也可以继续",
+      "event": "callDeclined",
+      "target": "call-xiaomi",
+      "next": [
+        "reveal-return"
+      ]
+    },
+    {
+      "id": "reveal-return",
+      "label": "江边的两个人",
+      "type": "action",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-return",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "file-diary",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "回到备忘录，查看「江边｜归还手机的地点」。文件里也出现了日记摘记。"
+        }
+      ]
+    },
+    {
+      "id": "read-return",
+      "label": "归还前的选择",
+      "event": "read",
+      "target": "note-return",
+      "next": [
+        "choice-return"
+      ]
+    },
+    {
+      "id": "choice-return",
+      "label": "过路人的选择",
+      "type": "choice",
+      "next": [
+        "return-now",
+        "read-diary-first"
+      ]
+    },
+    {
+      "id": "return-now",
+      "label": "现在归还手机",
+      "type": "action",
+      "next": [
+        "ending-warm"
+      ]
+    },
+    {
+      "id": "read-diary-first",
+      "label": "读完日记摘记，再归还",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "diaryChosen",
+          "value": true
+        }
+      ],
+      "next": [
+        "diary-already-read",
+        "diary-hint"
+      ]
+    },
+    {
+      "id": "diary-already-read",
+      "label": "已经读过日记",
+      "type": "condition",
+      "conditions": [
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "next": [
+        "choice-after-diary"
+      ]
+    },
+    {
+      "id": "diary-hint",
+      "label": "去文件查看日记",
+      "type": "condition",
+      "conditions": [
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "打开文件 App，阅读「方小米的日记｜转交摘记」，再归还手机。"
+        }
+      ]
+    },
+    {
+      "id": "read-diary",
+      "label": "读到小米没有逃开的那一页",
+      "event": "read",
+      "target": "file-diary",
+      "conditions": [
+        {
+          "key": "diaryChosen",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "next": [
+        "choice-after-diary"
+      ]
+    },
+    {
+      "id": "choice-after-diary",
+      "label": "把手机还给她",
+      "type": "choice",
+      "next": [
+        "return-after-diary"
+      ]
+    },
+    {
+      "id": "return-after-diary",
+      "label": "把手机交还陆亚飞",
+      "type": "action",
+      "next": [
+        "ending-warm"
+      ]
+    },
+    {
+      "id": "ending-warm",
+      "label": "钱塘里 · 灯还亮着",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "钱塘里 · 灯还亮着\n你在樱花大道把手机交还给陆亚飞。方小米也来到了江边。一个刚放下工牌，一个还背着生活的重担；她们终于愿意把各自的难处说完。\n后来，金月芳读到了方小米的日记。被隐瞒的愤怒没有被轻轻抹去，真心的照料也没有被一笔否定。她重新接纳了小米。\n赔偿和日子仍要一点点承担，三个人却不再独自面对。江上的风还在吹，家里的灯还亮着。"
+        }
+      ]
+    },
+    {
+      "id": "dinner-mother-read-0",
+      "label": "吃饭互动：mother 1",
+      "event": "read",
+      "target": "dinner-mother-invite",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "dinner-mother-reply",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "dinner-mother-read-1",
+      "label": "吃饭互动：mother 2",
+      "event": "read",
+      "target": "dinner-mother-reply",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "dinner-mother-followup",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "dinner-xiaomi-read-0",
+      "label": "吃饭互动：xiaomi 1",
+      "event": "read",
+      "target": "dinner-xiaomi-invite",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "dinner-xiaomi-reply",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "dinner-xiaomi-read-1",
+      "label": "吃饭互动：xiaomi 2",
+      "event": "read",
+      "target": "dinner-xiaomi-reply",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "dinner-xiaomi-followup",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "接听后挂断 · 读日记",
+      "steps": [
+        {
+          "event": "read",
+          "target": "note-tonight"
+        },
+        {
+          "event": "read",
+          "target": "note-trip"
+        },
+        {
+          "event": "read",
+          "target": "mail-cancel"
+        },
+        {
+          "event": "read",
+          "target": "note-care"
+        },
+        {
+          "event": "read",
+          "target": "bill-hospital"
+        },
+        {
+          "event": "read",
+          "target": "note-rain"
+        },
+        {
+          "event": "read",
+          "target": "note-truth",
+          "password": "0404"
+        },
+        {
+          "advanceMs": 1800
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "callEnded",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "read",
+          "target": "note-return"
+        },
+        {
+          "choose": "read-diary-first"
+        },
+        {
+          "event": "read",
+          "target": "file-diary"
+        },
+        {
+          "choose": "return-after-diary"
+        }
+      ],
+      "ending": "钱塘里 · 灯还亮着\n你在樱花大道把手机交还给陆亚飞。方小米也来到了江边。一个刚放下工牌，一个还背着生活的重担；她们终于愿意把各自的难处说完。\n后来，金月芳读到了方小米的日记。被隐瞒的愤怒没有被轻轻抹去，真心的照料也没有被一笔否定。她重新接纳了小米。\n赔偿和日子仍要一点点承担，三个人却不再独自面对。江上的风还在吹，家里的灯还亮着。",
+      "expectUnlocked": [
+        "note-rain",
+        "note-truth",
+        "note-return",
+        "file-diary"
+      ]
+    },
+    {
+      "name": "接听后挂断 · 直接归还",
+      "steps": [
+        {
+          "event": "read",
+          "target": "note-tonight"
+        },
+        {
+          "event": "read",
+          "target": "note-trip"
+        },
+        {
+          "event": "read",
+          "target": "mail-cancel"
+        },
+        {
+          "event": "read",
+          "target": "note-care"
+        },
+        {
+          "event": "read",
+          "target": "bill-hospital"
+        },
+        {
+          "event": "read",
+          "target": "note-rain"
+        },
+        {
+          "event": "read",
+          "target": "note-truth",
+          "password": "0404"
+        },
+        {
+          "advanceMs": 1800
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "callEnded",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "read",
+          "target": "note-return"
+        },
+        {
+          "choose": "return-now"
+        }
+      ],
+      "ending": "钱塘里 · 灯还亮着\n你在樱花大道把手机交还给陆亚飞。方小米也来到了江边。一个刚放下工牌，一个还背着生活的重担；她们终于愿意把各自的难处说完。\n后来，金月芳读到了方小米的日记。被隐瞒的愤怒没有被轻轻抹去，真心的照料也没有被一笔否定。她重新接纳了小米。\n赔偿和日子仍要一点点承担，三个人却不再独自面对。江上的风还在吹，家里的灯还亮着。",
+      "expectUnlocked": [
+        "note-rain",
+        "note-truth",
+        "note-return",
+        "file-diary"
+      ]
+    },
+    {
+      "name": "拒接 · 读日记",
+      "steps": [
+        {
+          "event": "read",
+          "target": "note-tonight"
+        },
+        {
+          "event": "read",
+          "target": "note-trip"
+        },
+        {
+          "event": "read",
+          "target": "mail-cancel"
+        },
+        {
+          "event": "read",
+          "target": "note-care"
+        },
+        {
+          "event": "read",
+          "target": "bill-hospital"
+        },
+        {
+          "event": "read",
+          "target": "note-rain"
+        },
+        {
+          "event": "read",
+          "target": "note-truth",
+          "password": "0404"
+        },
+        {
+          "advanceMs": 1800
+        },
+        {
+          "event": "callDeclined",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "read",
+          "target": "note-return"
+        },
+        {
+          "choose": "read-diary-first"
+        },
+        {
+          "event": "read",
+          "target": "file-diary"
+        },
+        {
+          "choose": "return-after-diary"
+        }
+      ],
+      "ending": "钱塘里 · 灯还亮着\n你在樱花大道把手机交还给陆亚飞。方小米也来到了江边。一个刚放下工牌，一个还背着生活的重担；她们终于愿意把各自的难处说完。\n后来，金月芳读到了方小米的日记。被隐瞒的愤怒没有被轻轻抹去，真心的照料也没有被一笔否定。她重新接纳了小米。\n赔偿和日子仍要一点点承担，三个人却不再独自面对。江上的风还在吹，家里的灯还亮着。",
+      "expectUnlocked": [
+        "note-rain",
+        "note-truth",
+        "note-return",
+        "file-diary"
+      ]
+    },
+    {
+      "name": "拒接 · 直接归还",
+      "steps": [
+        {
+          "event": "read",
+          "target": "note-tonight"
+        },
+        {
+          "event": "read",
+          "target": "note-trip"
+        },
+        {
+          "event": "read",
+          "target": "mail-cancel"
+        },
+        {
+          "event": "read",
+          "target": "note-care"
+        },
+        {
+          "event": "read",
+          "target": "bill-hospital"
+        },
+        {
+          "event": "read",
+          "target": "note-rain"
+        },
+        {
+          "event": "read",
+          "target": "note-truth",
+          "password": "0404"
+        },
+        {
+          "advanceMs": 1800
+        },
+        {
+          "event": "callDeclined",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "read",
+          "target": "note-return"
+        },
+        {
+          "choose": "return-now"
+        }
+      ],
+      "ending": "钱塘里 · 灯还亮着\n你在樱花大道把手机交还给陆亚飞。方小米也来到了江边。一个刚放下工牌，一个还背着生活的重担；她们终于愿意把各自的难处说完。\n后来，金月芳读到了方小米的日记。被隐瞒的愤怒没有被轻轻抹去，真心的照料也没有被一笔否定。她重新接纳了小米。\n赔偿和日子仍要一点点承担，三个人却不再独自面对。江上的风还在吹，家里的灯还亮着。",
+      "expectUnlocked": [
+        "note-rain",
+        "note-truth",
+        "note-return",
+        "file-diary"
+      ]
+    },
+    {
+      "name": "不同阅读顺序仍可通关",
+      "steps": [
+        {
+          "event": "read",
+          "target": "bill-hospital"
+        },
+        {
+          "event": "read",
+          "target": "note-care"
+        },
+        {
+          "event": "read",
+          "target": "note-rain"
+        },
+        {
+          "event": "read",
+          "target": "mail-cancel"
+        },
+        {
+          "event": "read",
+          "target": "note-trip"
+        },
+        {
+          "event": "read",
+          "target": "note-truth",
+          "password": "0404"
+        },
+        {
+          "advanceMs": 1800
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "callEnded",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "read",
+          "target": "note-return"
+        },
+        {
+          "choose": "read-diary-first"
+        },
+        {
+          "event": "read",
+          "target": "file-diary"
+        },
+        {
+          "choose": "return-after-diary"
+        }
+      ],
+      "ending": "钱塘里 · 灯还亮着\n你在樱花大道把手机交还给陆亚飞。方小米也来到了江边。一个刚放下工牌，一个还背着生活的重担；她们终于愿意把各自的难处说完。\n后来，金月芳读到了方小米的日记。被隐瞒的愤怒没有被轻轻抹去，真心的照料也没有被一笔否定。她重新接纳了小米。\n赔偿和日子仍要一点点承担，三个人却不再独自面对。江上的风还在吹，家里的灯还亮着。",
+      "expectUnlocked": [
+        "note-truth",
+        "file-diary"
+      ]
+    },
+    {
+      "name": "先读日记再作选择，不会卡住",
+      "steps": [
+        {
+          "event": "read",
+          "target": "note-tonight"
+        },
+        {
+          "event": "read",
+          "target": "note-trip"
+        },
+        {
+          "event": "read",
+          "target": "mail-cancel"
+        },
+        {
+          "event": "read",
+          "target": "note-care"
+        },
+        {
+          "event": "read",
+          "target": "bill-hospital"
+        },
+        {
+          "event": "read",
+          "target": "note-rain"
+        },
+        {
+          "event": "read",
+          "target": "note-truth",
+          "password": "0404"
+        },
+        {
+          "advanceMs": 1800
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "callEnded",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "read",
+          "target": "file-diary"
+        },
+        {
+          "event": "read",
+          "target": "note-return"
+        },
+        {
+          "choose": "read-diary-first"
+        },
+        {
+          "choose": "return-after-diary"
+        }
+      ],
+      "ending": "钱塘里 · 灯还亮着\n你在樱花大道把手机交还给陆亚飞。方小米也来到了江边。一个刚放下工牌，一个还背着生活的重担；她们终于愿意把各自的难处说完。\n后来，金月芳读到了方小米的日记。被隐瞒的愤怒没有被轻轻抹去，真心的照料也没有被一笔否定。她重新接纳了小米。\n赔偿和日子仍要一点点承担，三个人却不再独自面对。江上的风还在吹，家里的灯还亮着。",
+      "expectUnlocked": [
+        "file-diary"
+      ]
+    },
+    {
+      "name": "吃饭互动：妈妈，之后仍可通关",
+      "steps": [
+        {
+          "event": "read",
+          "target": "dinner-mother-invite"
+        },
+        {
+          "event": "read",
+          "target": "dinner-mother-reply"
+        },
+        {
+          "event": "read",
+          "target": "dinner-mother-followup"
+        },
+        {
+          "event": "read",
+          "target": "note-tonight"
+        },
+        {
+          "event": "read",
+          "target": "note-trip"
+        },
+        {
+          "event": "read",
+          "target": "mail-cancel"
+        },
+        {
+          "event": "read",
+          "target": "note-care"
+        },
+        {
+          "event": "read",
+          "target": "bill-hospital"
+        },
+        {
+          "event": "read",
+          "target": "note-rain"
+        },
+        {
+          "event": "read",
+          "target": "note-truth",
+          "password": "0404"
+        },
+        {
+          "advanceMs": 1800
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "callEnded",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "read",
+          "target": "note-return"
+        },
+        {
+          "choose": "read-diary-first"
+        },
+        {
+          "event": "read",
+          "target": "file-diary"
+        },
+        {
+          "choose": "return-after-diary"
+        }
+      ],
+      "ending": "钱塘里 · 灯还亮着\n你在樱花大道把手机交还给陆亚飞。方小米也来到了江边。一个刚放下工牌，一个还背着生活的重担；她们终于愿意把各自的难处说完。\n后来，金月芳读到了方小米的日记。被隐瞒的愤怒没有被轻轻抹去，真心的照料也没有被一笔否定。她重新接纳了小米。\n赔偿和日子仍要一点点承担，三个人却不再独自面对。江上的风还在吹，家里的灯还亮着。",
+      "expectUnlocked": [
+        "note-rain",
+        "note-truth",
+        "note-return",
+        "file-diary",
+        "dinner-mother-reply",
+        "dinner-mother-followup"
+      ]
+    },
+    {
+      "name": "吃饭互动：方小米，之后仍可通关",
+      "steps": [
+        {
+          "event": "read",
+          "target": "dinner-xiaomi-invite"
+        },
+        {
+          "event": "read",
+          "target": "dinner-xiaomi-reply"
+        },
+        {
+          "event": "read",
+          "target": "dinner-xiaomi-followup"
+        },
+        {
+          "event": "read",
+          "target": "note-tonight"
+        },
+        {
+          "event": "read",
+          "target": "note-trip"
+        },
+        {
+          "event": "read",
+          "target": "mail-cancel"
+        },
+        {
+          "event": "read",
+          "target": "note-care"
+        },
+        {
+          "event": "read",
+          "target": "bill-hospital"
+        },
+        {
+          "event": "read",
+          "target": "note-rain"
+        },
+        {
+          "event": "read",
+          "target": "note-truth",
+          "password": "0404"
+        },
+        {
+          "advanceMs": 1800
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "callEnded",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "read",
+          "target": "note-return"
+        },
+        {
+          "choose": "read-diary-first"
+        },
+        {
+          "event": "read",
+          "target": "file-diary"
+        },
+        {
+          "choose": "return-after-diary"
+        }
+      ],
+      "ending": "钱塘里 · 灯还亮着\n你在樱花大道把手机交还给陆亚飞。方小米也来到了江边。一个刚放下工牌，一个还背着生活的重担；她们终于愿意把各自的难处说完。\n后来，金月芳读到了方小米的日记。被隐瞒的愤怒没有被轻轻抹去，真心的照料也没有被一笔否定。她重新接纳了小米。\n赔偿和日子仍要一点点承担，三个人却不再独自面对。江上的风还在吹，家里的灯还亮着。",
+      "expectUnlocked": [
+        "note-rain",
+        "note-truth",
+        "note-return",
+        "file-diary",
+        "dinner-xiaomi-reply",
+        "dinner-xiaomi-followup"
+      ]
+    }
+  ]
+}

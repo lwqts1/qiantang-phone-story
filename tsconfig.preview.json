@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "types": ["node"] },
+  "include": [
+    "scripts/story-preview-plugin.ts",
+    "vite.runtime.config.ts",
+    "tests/story-preview.config.ts",
+    "tests/story-preview.spec.ts"
+  ]
+}
