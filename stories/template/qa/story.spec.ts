@@ -148,3 +148,29 @@ test('北京时间跨日并自动更新锁屏时间', async ({ page }) => {
   await expect(page.getByRole('heading', { name: '00:00', exact: true })).toBeVisible();
   await expect(page.getByText('1月1日星期五', { exact: true })).toBeVisible();
 });
+
+test('夏季主线解锁六城宣传，集齐后可归还手机', async ({ page }) => {
+  await prepare(page);
+  await page.getByRole('button', { name: '拒接', exact: true }).click();
+  await note(page, '江边｜归还手机的地点');
+  await page.getByRole('button', { name: '读完日记摘记，再归还', exact: true }).click();
+  await open(page, '文件');
+  await page.locator('.file-grid button').filter({ hasText: '方小米的日记｜转交摘记' }).click();
+  await page.getByRole('button', { name: '先查看六城巡演彩蛋', exact: true }).click();
+  await note(page, '戏外彩蛋｜《钱塘里》六城巡演');
+  for (const item of story.content.calendar) {
+    await open(page, '日历');
+    const month = Number(item.time.slice(5, 7));
+    for (let n = 0; n < 4 && !(await page.locator('.month-title').innerText()).includes(`2026 年 ${month} 月`); n++) {
+      await page.getByRole('button', { name: '下个月', exact: true }).click();
+    }
+    await page.locator('.calendar-grid').getByRole('button', { name: String(Number(item.time.slice(8, 10))), exact: true }).click();
+    await page.locator('.calendar-event').filter({ hasText: item.title }).click();
+  }
+  await saved(page, 'tour-complete');
+  await page.reload();
+  await unlock(page);
+  await note(page, '六城已点亮｜剧场见');
+  await page.getByRole('button', { name: '把手机交还陆亚飞', exact: true }).click();
+  await expect(page.locator('.story-overlay.ending p')).toHaveText(ending);
+});

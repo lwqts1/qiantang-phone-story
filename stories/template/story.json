@@ -3,10 +3,10 @@
   "id": "qiantang-riverside-phone",
   "title": "钱塘里·樱花大道的手机",
   "description": "以用户提供的越剧《钱塘里》梗概为基础的互动改编。你在樱花大道捡到陆亚飞的手机，沿着行程、照护记录和日记拼起三个女人的经历。具体日期、行程和非聊天文案为改编补写；除作者指定的吃饭互动外，聊天由作者填写。",
-  "revision": 4,
+  "revision": 5,
   "phone": {
     "owner": "陆亚飞",
-    "date": "2026-11-01",
+    "date": "2026-08-18",
     "time": "21:20",
     "passcode": "",
     "wallpaper": "sage",
@@ -165,21 +165,21 @@
           "id": "dinner-mother-invite",
           "body": "亚飞，今天回家吃饭。菜都买好了，再忙也要好好吃饭。",
           "senderId": "jin-yuefang",
-          "time": "2026-10-30 17:30",
+          "time": "2026-08-05 17:30",
           "hidden": false
         },
         {
           "id": "dinner-mother-reply",
           "body": "知道了，妈。我忙完就回去，你和爸饿了先吃。",
           "senderId": "owner",
-          "time": "2026-10-30 17:32",
+          "time": "2026-08-05 17:32",
           "hidden": true
         },
         {
           "id": "dinner-mother-followup",
           "body": "等你回来一起吃，路上慢一点。",
           "senderId": "jin-yuefang",
-          "time": "2026-10-30 17:33",
+          "time": "2026-08-05 17:33",
           "hidden": true
         }
       ]
@@ -197,21 +197,21 @@
           "id": "dinner-xiaomi-invite",
           "body": "亚飞，你今天几点回来吃饭？我好算着时间把菜热上。",
           "senderId": "fang-xiaomi",
-          "time": "2026-10-31 17:30",
+          "time": "2026-08-06 17:30",
           "hidden": false
         },
         {
           "id": "dinner-xiaomi-reply",
           "body": "大概六点半。小米，你和妈先吃，不用一直等我。",
           "senderId": "owner",
-          "time": "2026-10-31 17:32",
+          "time": "2026-08-06 17:32",
           "hidden": true
         },
         {
           "id": "dinner-xiaomi-followup",
           "body": "好，我给你留着。到家就能吃。",
           "senderId": "fang-xiaomi",
-          "time": "2026-10-31 17:33",
+          "time": "2026-08-06 17:33",
           "hidden": true
         }
       ]
@@ -233,55 +233,119 @@
         "id": "note-tonight",
         "title": "今晚｜去江边走走",
         "body": "工作交接文件已经留好，工牌放在包里。\n\n我想沿樱花大道走一会儿，买一罐酒，等心里安静些再回去。手机不要再静音，妈可能还会找我。\n\n没做完的事：\n· 核对备忘录里的「出差行程」，取消已经不用的安排。\n· 看一眼邮件里的项目通知。\n· 把「住院照护交接」和钱包里的垫付记录整理在一起。\n\n有些话我以为晚一点再说就会容易些，结果一天比一天难说。",
-        "time": "2026-11-01 20:50"
+        "time": "2026-08-18 20:50"
       },
       {
         "id": "note-trip",
         "title": "出差行程｜s1项目会（已取消）",
-        "body": "原定出发：7月9日；返杭：7月10日。\n地点：广州，总部会议室。\n\n7月9日 · 周六\n07:00　杭州出发前，确认母亲当天的照护安排。\n08:00—10:00　杭州萧山 → 广州白云，航班待行政确认。\n10:30　入住酒店、整理项目材料。\n13:30　合作方项目对接：进度、预算、后续执行。\n17:30　整理会议纪要。\n20:00　给母亲打电话。\n\n7月10日 · 周日\n09:30　内部复盘，核对尚未落实的事项。\n12:00　退房。\n14:00—16:00　广州白云 → 杭州萧山，航班待定。\n18:00　去医院看母亲。\n\n行前清单\n身份证、电脑、充电器；照护交接单；母亲需要的换洗衣物提前放好。酒店、车票尚未出票，不记报销金额。\n\n7月3日更新\n项目暂停，这趟出差停止。取消会议室与住宿预留，向行政交接资料。住院照护安排也要重新核对，不能照旧表执行。\n\n归档提醒：私人备忘录沿用原定出发日的四位月日作密码。",
+        "body": "原定出发：7月9日；返杭：7月10日。\n地点：广州，总部会议室。\n\n7月9日 · 周四\n07:00　杭州出发前，确认母亲当天的照护安排。\n08:00—10:00　杭州萧山 → 广州白云，航班待行政确认。\n10:30　入住酒店、整理项目材料。\n13:30　合作方项目对接：进度、预算、后续执行。\n17:30　整理会议纪要。\n20:00　给母亲打电话。\n\n7月10日 · 周五\n09:30　内部复盘，核对尚未落实的事项。\n12:00　退房。\n14:00—16:00　广州白云 → 杭州萧山，航班待定。\n18:00　去医院看母亲。\n\n行前清单\n身份证、电脑、充电器；照护交接单；母亲需要的换洗衣物提前放好。酒店、车票尚未出票，不记报销金额。\n\n7月3日更新\n项目暂停，这趟出差停止。取消会议室与住宿预留，向行政交接资料。住院照护安排也要重新核对，不能照旧表执行。\n\n归档提醒：私人备忘录沿用原定出发日的四位月日作密码。",
         "time": "2026-07-03 17:20",
         "folder": "工作"
       },
       {
         "id": "note-care",
         "title": "住院照护交接",
-        "body": "7月3日\n妈叫金月芳，参加老年模特队。她最不喜欢别人一进门就说「你歇着，别动」。先问她需要什么。\n\n小米这几天留在医院照护。她家里有个刚满半岁的女儿，不能把她的夜晚全占了。给她留出回家和休息的时间。\n\n3月31日补记\n妈开始等小米来，连模特队以前的事也愿意讲给她听。小米记得她的习惯，比我的交接单还仔细。\n\n费用单独放在钱包，先把母亲的照护接上，之后再把责任说清。那场雨夜的经过，我另外记了一份。\n\n7月3日补记\n旧安排暂停。妈已经让小米离开，我得自己重新安排照护。",
-        "time": "2026-07-03 18:20",
+        "body": "7月3日\n妈叫金月芳，参加老年模特队。她最不喜欢别人一进门就说「你歇着，别动」。先问她需要什么。\n\n小米这几天留在医院照护。她家里有个刚满半岁的女儿，不能把她的夜晚全占了。给她留出回家和休息的时间。\n\n8月5日补记\n妈开始等小米来，连模特队以前的事也愿意讲给她听。小米记得她的习惯，比我的交接单还仔细。\n\n费用单独放在钱包，先把母亲的照护接上，之后再把责任说清。那场雨夜的经过，我另外记了一份。\n\n8月18日补记\n旧安排暂停。妈已经让小米离开，我得自己重新安排照护。",
+        "time": "2026-08-18 18:20",
         "folder": "家里"
       },
       {
         "id": "note-rain",
         "title": "那场雨｜我知道的经过",
-        "body": "3月26日是个雨夜。\n\n小米急着回家照顾半岁的女儿，骑电动车时走神，撞到了正在过马路的妈。\n\n她曾离开医院，后来又回来了。她没有因为回来就变得无辜，但她到底没有把这件事丢给别人。\n\n我让她留下做护工，却没把她是谁告诉妈。我当时想着，妈有人照顾，小米也有一个留下承担责任的办法。\n\n后来妈把小米当成了女儿。我才发现，「以后再解释」并不会替我把解释变得容易。",
-        "time": "2026-04-02 23:10",
+        "body": "7月1日是个雨夜。\n\n小米急着回家照顾半岁的女儿，骑电动车时走神，撞到了正在过马路的妈。\n\n她曾离开医院，后来又回来了。她没有因为回来就变得无辜，但她到底没有把这件事丢给别人。\n\n我让她留下做护工，却没把她是谁告诉妈。我当时想着，妈有人照顾，小米也有一个留下承担责任的办法。\n\n后来妈把小米当成了女儿。我才发现，「以后再解释」并不会替我把解释变得容易。",
+        "time": "2026-08-17 23:10",
         "hidden": true,
         "folder": "家里"
       },
       {
         "id": "note-truth",
         "title": "没有说出口的事",
-        "body": "今天妈知道了。\n\n她难过的，不只是被撞伤。她以为我和小米一起把她蒙在鼓里，那些照料、亲近和信任，全被她重新问了一遍。她把小米赶走了。\n\n我替她决定什么可以知道，竟还以为是在替她省心。\n\n项目也取消了。我已经提出辞职，工作交接还要完成。那些已经排好的会议、明天该坐的车，现在都不用赶了。\n\n小米一家要面对的账，陈运河接再多夜单也填不平。我有我的难处，却不能把她的难处想得那么轻。\n\n我去江边。今晚先不急着给任何事情找一个漂亮的说法。",
-        "time": "2026-04-03 20:40",
+        "body": "今天妈知道了。\n\n她难过的，不只是被撞伤。她以为我和小米一起把她蒙在鼓里，那些照料、亲近和信任，全被她重新问了一遍。她把小米赶走了。\n\n我替她决定什么可以知道，竟还以为是在替她省心。\n\n7月暂停的项目，今天正式取消了。我已经提出辞职，工作交接还要完成。七月那趟广州会议早已停止，如今后续安排也全部取消。\n\n小米一家要面对的账，陈运河接再多夜单也填不平。我有我的难处，却不能把她的难处想得那么轻。\n\n我去江边。今晚先不急着给任何事情找一个漂亮的说法。",
+        "time": "2026-08-18 20:40",
         "hidden": true,
-        "password": "0404",
+        "password": "0709",
         "folder": "私人"
       },
       {
         "id": "note-return",
         "title": "江边｜归还手机的地点",
         "body": "樱花大道，靠江的长椅。\n\n你顺着手机里保存的地点望去，看见了和机主资料相符的陆亚飞。她正在附近找手机。另一头，方小米也沿着江边走来。\n\n你可以现在归还手机。若想再拼上最后一页，文件 App 中保存着方小米托亚飞转交的日记摘记。\n\n你只是这个夜晚的过路人，她们的决定仍由她们自己作出。",
-        "time": "2026-04-03 20:50",
+        "time": "2026-08-18 20:50",
         "hidden": true,
         "sender": "故事旁白",
         "folder": "这一夜"
+      },
+      {
+        "id": "tour-checklist",
+        "title": "戏外彩蛋｜《钱塘里》六城巡演",
+        "body": "故事里的夏天，三个女人从防备走向理解。故事之外，邀请你走进剧场，看见《钱塘里》。\n\n这份巡演清单是给玩家的戏外彩蛋，不是陆亚飞的工作行程。\n\n11-01 19:30　西安｜开元大剧院\n11-08 15:00　无锡｜无锡大剧院\n11-15 15:00　济南｜山东省会大剧院\n11-22 15:00　南昌｜南昌保利大剧院\n11-29 15:00　广州｜广州白云国际会议中心世纪大会堂\n12-06 15:00　福州｜福州海峡文化艺术中心\n\n打开日历，逐站点开以上六场安排；每读完一站，备忘录就会出现对应的「已点亮」记录。地图里可查询剧场地址。集齐六站，解锁观演邀请。",
+        "time": "2026-11-01 00:00",
+        "folder": "戏外彩蛋 · 六城巡演",
+        "hidden": true
+      },
+      {
+        "id": "tour-stamp-2026-11-01",
+        "title": "已点亮｜西安",
+        "body": "西安｜开元大剧院\n2026-11-01 19:30\n\n这一站已点亮。把手机里的故事，接到剧场的灯光里。",
+        "time": "2026-11-01 19:30",
+        "folder": "戏外彩蛋 · 六城巡演",
+        "hidden": true
+      },
+      {
+        "id": "tour-stamp-2026-11-08",
+        "title": "已点亮｜无锡",
+        "body": "无锡｜无锡大剧院\n2026-11-08 15:00\n\n这一站已点亮。把手机里的故事，接到剧场的灯光里。",
+        "time": "2026-11-08 15:00",
+        "folder": "戏外彩蛋 · 六城巡演",
+        "hidden": true
+      },
+      {
+        "id": "tour-stamp-2026-11-15",
+        "title": "已点亮｜济南",
+        "body": "济南｜山东省会大剧院\n2026-11-15 15:00\n\n这一站已点亮。把手机里的故事，接到剧场的灯光里。",
+        "time": "2026-11-15 15:00",
+        "folder": "戏外彩蛋 · 六城巡演",
+        "hidden": true
+      },
+      {
+        "id": "tour-stamp-2026-11-22",
+        "title": "已点亮｜南昌",
+        "body": "南昌｜南昌保利大剧院\n2026-11-22 15:00\n\n这一站已点亮。把手机里的故事，接到剧场的灯光里。",
+        "time": "2026-11-22 15:00",
+        "folder": "戏外彩蛋 · 六城巡演",
+        "hidden": true
+      },
+      {
+        "id": "tour-stamp-2026-11-29",
+        "title": "已点亮｜广州",
+        "body": "广州｜广州白云国际会议中心世纪大会堂\n2026-11-29 15:00\n\n这一站已点亮。把手机里的故事，接到剧场的灯光里。",
+        "time": "2026-11-29 15:00",
+        "folder": "戏外彩蛋 · 六城巡演",
+        "hidden": true
+      },
+      {
+        "id": "tour-stamp-2026-12-06",
+        "title": "已点亮｜福州",
+        "body": "福州｜福州海峡文化艺术中心\n2026-12-06 15:00\n\n这一站已点亮。把手机里的故事，接到剧场的灯光里。",
+        "time": "2026-12-06 15:00",
+        "folder": "戏外彩蛋 · 六城巡演",
+        "hidden": true
+      },
+      {
+        "id": "tour-invitation",
+        "title": "六城已点亮｜剧场见",
+        "body": "你已点亮西安、无锡、济南、南昌、广州、福州六站。\n\n一个雨夜，把三个人的生活撞到一起。一顿等着人回家的饭，让难以说出口的关心有了温度。\n\n谢谢你读完陆亚飞手机里的夏天。接下来，邀请你走进剧场，看《钱塘里》里的她们如何从防备走向理解。\n\n《钱塘里》六城巡演，剧场见。\n\n戏外宣传彩蛋 · 场次按作者提供的信息整理，购票与临时变动请以剧院正式公告为准。",
+        "time": "2026-12-06 15:00",
+        "folder": "戏外彩蛋 · 六城巡演",
+        "hidden": true
       }
     ],
     "mail": [
       {
         "id": "mail-cancel",
         "title": "项目取消通知",
-        "body": "项目终止，原定4月4日至5日上海对接会取消。请停止相关差旅安排，移交已完成的材料，后续事项由部门统一处理。",
-        "time": "2026-04-03 15:30",
+        "body": "7月3日暂停的S1项目现正式终止。原定7月9日至10日的广州对接会已取消，请继续停止相关差旅安排，移交已完成的材料。",
+        "time": "2026-08-18 15:30",
         "sender": "美乙团 · 项目事务",
         "folder": "收件箱",
         "meta": {
@@ -293,7 +357,7 @@
         "id": "mail-handover",
         "title": "离职交接清单（已提交）",
         "body": "已提交离职申请。项目资料、费用记录、待办清单移交部门；出差预留取消，未出票、未发生差旅报销。交接完成日期待确认。",
-        "time": "2026-04-03 18:05",
+        "time": "2026-08-18 18:05",
         "sender": "陆亚飞",
         "folder": "已发送",
         "meta": {
@@ -306,8 +370,8 @@
       {
         "id": "bill-hospital",
         "title": "住院垫付记录",
-        "body": "母亲的住院费用，由我先垫付。金额等正式清单出来后逐项核对，这条不是最终赔偿结算。\n\n小米家里的钱要顾孩子和日常开销，陈运河送外卖、接夜单，仍然难以承担医疗费和赔偿。\n\n先记账，不在病床前催她。和「住院照护交接」放在一起看。",
-        "time": "2026-04-02 19:40",
+        "body": "母亲的住院费用，由我先垫付。金额等正式清单出来后逐项核对，这条不是最终赔偿结算。\n\n小米家里的钱要顾孩子和日常开销，陈运河送外卖、接夜单，仍然难以承担医疗费和赔偿。\n\n先记账，不在病床前催她。和「住院照护交接」放在一起看。\n\n7月2日，小米为手术和家中周转开口借钱。我通过支付宝转给她8万元，转账记录保存在支付宝。此处不重复计算支出。",
+        "time": "2026-07-02 14:40",
         "folder": "交易",
         "meta": {
           "amount": "待核对",
@@ -316,9 +380,9 @@
       },
       {
         "id": "bill-trip",
-        "title": "上海差旅预留取消",
-        "body": "4月4日—5日行程取消；车票及酒店尚未付款。本条只作行程核对，不计入实际支出。",
-        "time": "2026-04-03 17:30",
+        "title": "广州差旅预留取消",
+        "body": "7月9日—10日广州行程取消；机票及酒店尚未付款。本条只作行程核对，不计入实际支出。",
+        "time": "2026-07-03 17:30",
         "folder": "交易",
         "meta": {
           "amount": "¥0.00",
@@ -330,8 +394,8 @@
       {
         "id": "file-diary",
         "title": "方小米的日记｜转交摘记",
-        "body": "转交说明：小米交给亚飞，请她带给金月芳。以下为日记摘记。\n\n3月26日\n我一边骑车一边想着孩子，雨落在脸上，心早就跑回家了。等我回过神来，阿姨已经倒下。我跑过，又回来了。回去的路比来时还难走，可这件事是我做的。\n\n3月31日\n阿姨今天讲起走模特步的事情，眼睛亮起来。她让我回家看看孩子。我照顾她，不是想拿这些抵掉那场事故。只是她疼的时候，我不能装作没看见。\n\n4月3日\n阿姨让我走。我想解释，又觉得最该先说的那句话，已经晚了太多天。运河还在跑单，孩子还在等我。我不知道钱从哪里来，但我不想再逃。\n\n如果她肯读到这里，我想让她知道：照顾她的那些日子，我没有把她只当成一笔债。",
-        "time": "2026-04-03 20:30",
+        "body": "转交说明：小米交给亚飞，请她带给金月芳。以下为日记摘记。\n\n7月1日\n我一边骑车一边想着孩子，雨落在脸上，心早就跑回家了。等我回过神来，阿姨已经倒下。我跑过，又回来了。回去的路比来时还难走，可这件事是我做的。\n\n8月5日\n阿姨今天讲起走模特步的事情，眼睛亮起来。她让我回家看看孩子。我照顾她，不是想拿这些抵掉那场事故。只是她疼的时候，我不能装作没看见。\n\n8月18日\n阿姨让我走。我想解释，又觉得最该先说的那句话，已经晚了太多天。运河还在跑单，孩子还在等我。我不知道钱从哪里来，但我不想再逃。\n\n如果她肯读到这里，我想让她知道：照顾她的那些日子，我没有把她只当成一笔债。",
+        "time": "2026-08-18 20:30",
         "hidden": true,
         "sender": "方小米",
         "meta": {
@@ -345,7 +409,7 @@
         "id": "map-river",
         "title": "樱花大道｜钱塘江边",
         "body": "",
-        "time": "2026-11-01 20:50",
+        "time": "2026-08-18 20:50",
         "meta": {
           "address": "杭州 · 钱塘江边 · 樱花大道",
           "x": "62",
@@ -361,7 +425,8 @@
           "address": "陕西省西安市凤城九路34号",
           "showMarker": "true"
         },
-        "time": "2026-11-01 19:30"
+        "time": "2026-11-01 19:30",
+        "folder": "戏外彩蛋 · 六城巡演"
       },
       {
         "id": "map-theatre-wuxi",
@@ -371,7 +436,8 @@
           "address": "江苏省无锡市经开区大剧院路1号",
           "showMarker": "true"
         },
-        "time": "2026-11-08 15:00"
+        "time": "2026-11-08 15:00",
+        "folder": "戏外彩蛋 · 六城巡演"
       },
       {
         "id": "map-theatre-jinan",
@@ -381,7 +447,8 @@
           "address": "山东省济南市槐荫区日照路2299号",
           "showMarker": "true"
         },
-        "time": "2026-11-15 15:00"
+        "time": "2026-11-15 15:00",
+        "folder": "戏外彩蛋 · 六城巡演"
       },
       {
         "id": "map-theatre-nanchang",
@@ -391,7 +458,8 @@
           "address": "江西省南昌市红谷滩区隆安一街与环湖路交叉口南180米",
           "showMarker": "true"
         },
-        "time": "2026-11-22 15:00"
+        "time": "2026-11-22 15:00",
+        "folder": "戏外彩蛋 · 六城巡演"
       },
       {
         "id": "map-theatre-guangzhou",
@@ -401,7 +469,8 @@
           "address": "广东省广州市白云区白云大道南1039—1045号，白云国际会议中心4号楼",
           "showMarker": "true"
         },
-        "time": "2026-11-29 15:00"
+        "time": "2026-11-29 15:00",
+        "folder": "戏外彩蛋 · 六城巡演"
       },
       {
         "id": "map-theatre-fuzhou",
@@ -411,7 +480,8 @@
           "address": "福建省福州市仓山区南江滨东大道1号",
           "showMarker": "true"
         },
-        "time": "2026-12-06 15:00"
+        "time": "2026-12-06 15:00",
+        "folder": "戏外彩蛋 · 六城巡演"
       }
     ],
     "phone": [
@@ -419,7 +489,7 @@
         "id": "call-xiaomi",
         "title": "方小米",
         "body": "亚飞，你在哪里？我在江边，想找你说说话。",
-        "time": "2026-11-01 20:50",
+        "time": "2026-08-18 20:50",
         "hidden": true,
         "kind": "call",
         "sender": "方小米",
@@ -432,7 +502,7 @@
         "id": "phone-contact-xiaomi",
         "title": "方小米",
         "body": "小米问晚饭几点准备，亚飞说下班后回来。",
-        "time": "2026-10-31 17:25",
+        "time": "2026-08-06 17:25",
         "kind": "call",
         "sender": "方小米",
         "meta": {
@@ -444,7 +514,7 @@
         "id": "phone-contact-mother",
         "title": "妈",
         "body": "妈喊亚飞回家吃饭，提醒她别总拿面包凑合。",
-        "time": "2026-10-30 17:40",
+        "time": "2026-08-05 17:40",
         "kind": "call",
         "sender": "妈",
         "meta": {
@@ -455,7 +525,7 @@
       {
         "id": "call-father-september",
         "title": "爸",
-        "time": "2026-09-06 20:00",
+        "time": "2026-08-16 20:00",
         "body": "爸爸问工作忙不忙，叮嘱按时吃饭。",
         "sender": "爸",
         "kind": "call",
@@ -529,76 +599,82 @@
       {
         "id": "calendar-2026-11-01",
         "title": "西安｜开元大剧院",
-        "body": "日期：2026年11月1日\n时间：19:30\n城市：西安\n地点：开元大剧院",
+        "body": "《钱塘里》六城巡演 · 戏外宣传\n不是陆亚飞的工作出差行程。\n\n日期：2026年11月1日\n时间：19:30\n城市：西安\n地点：开元大剧院",
         "time": "2026-11-01 19:30",
         "sender": "陆亚飞",
         "kind": "event",
         "meta": {
           "location": "西安 · 开元大剧院"
-        }
+        },
+        "folder": "戏外彩蛋 · 六城巡演"
       },
       {
         "id": "calendar-2026-11-08",
         "title": "无锡｜无锡大剧院",
-        "body": "日期：2026年11月8日\n时间：15:00\n城市：无锡\n地点：无锡大剧院",
+        "body": "《钱塘里》六城巡演 · 戏外宣传\n不是陆亚飞的工作出差行程。\n\n日期：2026年11月8日\n时间：15:00\n城市：无锡\n地点：无锡大剧院",
         "time": "2026-11-08 15:00",
         "sender": "陆亚飞",
         "kind": "event",
         "meta": {
           "location": "无锡 · 无锡大剧院"
-        }
+        },
+        "folder": "戏外彩蛋 · 六城巡演"
       },
       {
         "id": "calendar-2026-11-15",
         "title": "济南｜山东省会大剧院",
-        "body": "日期：2026年11月15日\n时间：15:00\n城市：济南\n地点：山东省会大剧院",
+        "body": "《钱塘里》六城巡演 · 戏外宣传\n不是陆亚飞的工作出差行程。\n\n日期：2026年11月15日\n时间：15:00\n城市：济南\n地点：山东省会大剧院",
         "time": "2026-11-15 15:00",
         "sender": "陆亚飞",
         "kind": "event",
         "meta": {
           "location": "济南 · 山东省会大剧院"
-        }
+        },
+        "folder": "戏外彩蛋 · 六城巡演"
       },
       {
         "id": "calendar-2026-11-22",
         "title": "南昌｜南昌保利大剧院",
-        "body": "日期：2026年11月22日\n时间：15:00\n城市：南昌\n地点：南昌保利大剧院",
+        "body": "《钱塘里》六城巡演 · 戏外宣传\n不是陆亚飞的工作出差行程。\n\n日期：2026年11月22日\n时间：15:00\n城市：南昌\n地点：南昌保利大剧院",
         "time": "2026-11-22 15:00",
         "sender": "陆亚飞",
         "kind": "event",
         "meta": {
           "location": "南昌 · 南昌保利大剧院"
-        }
+        },
+        "folder": "戏外彩蛋 · 六城巡演"
       },
       {
         "id": "calendar-2026-11-29",
         "title": "广州｜广州白云国际会议中心世纪大会堂",
-        "body": "日期：2026年11月29日\n时间：15:00\n城市：广州\n地点：广州白云国际会议中心世纪大会堂",
+        "body": "《钱塘里》六城巡演 · 戏外宣传\n不是陆亚飞的工作出差行程。\n\n日期：2026年11月29日\n时间：15:00\n城市：广州\n地点：广州白云国际会议中心世纪大会堂",
         "time": "2026-11-29 15:00",
         "sender": "陆亚飞",
         "kind": "event",
         "meta": {
           "location": "广州 · 广州白云国际会议中心世纪大会堂"
-        }
+        },
+        "folder": "戏外彩蛋 · 六城巡演"
       },
       {
         "id": "calendar-2026-12-06",
         "title": "福州｜福州海峡文化艺术中心",
-        "body": "日期：2026年12月6日\n时间：15:00\n城市：福州\n地点：福州海峡文化艺术中心",
+        "body": "《钱塘里》六城巡演 · 戏外宣传\n不是陆亚飞的工作出差行程。\n\n日期：2026年12月6日\n时间：15:00\n城市：福州\n地点：福州海峡文化艺术中心",
         "time": "2026-12-06 15:00",
         "sender": "陆亚飞",
         "kind": "event",
         "meta": {
           "location": "福州 · 福州海峡文化艺术中心"
-        }
+        },
+        "folder": "戏外彩蛋 · 六城巡演"
       }
     ],
     "alipay": [
       {
         "id": "alipay-transfer-xiaomi-80000",
         "title": "转账给方小米",
-        "body": "付款人：陆亚飞\n收款人：方小米\n转账金额：¥80,000.00\n转账状态：转账成功",
-        "time": "2026-07-12 14:30",
+        "body": "付款人：陆亚飞\n收款人：方小米\n转账金额：¥80,000.00\n转账状态：转账成功\n备注：小米借款，先应急。",
+        "time": "2026-07-02 14:30",
         "sender": "陆亚飞",
         "kind": "transfer",
         "folder": "账单",
@@ -888,7 +964,8 @@
       "label": "把手机还给她",
       "type": "choice",
       "next": [
-        "return-after-diary"
+        "return-after-diary",
+        "explore-tour"
       ]
     },
     {
@@ -962,6 +1039,277 @@
           "value": true
         }
       ]
+    },
+    {
+      "id": "tour-unlock",
+      "label": "读完日记，打开戏外巡演",
+      "event": "read",
+      "target": "file-diary",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "tour-checklist",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "夏天的故事，走向秋冬的剧场。备忘录已解锁「戏外彩蛋｜《钱塘里》六城巡演」。"
+        }
+      ]
+    },
+    {
+      "id": "tour-light-2026-11-01",
+      "label": "点亮西安",
+      "event": "read",
+      "conditions": [
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:calendar-2026-11-01",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "tour-stamp-2026-11-01",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "西安站已点亮，记录已放入备忘录。"
+        }
+      ]
+    },
+    {
+      "id": "tour-light-2026-11-08",
+      "label": "点亮无锡",
+      "event": "read",
+      "conditions": [
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:calendar-2026-11-08",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "tour-stamp-2026-11-08",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "无锡站已点亮，记录已放入备忘录。"
+        }
+      ]
+    },
+    {
+      "id": "tour-light-2026-11-15",
+      "label": "点亮济南",
+      "event": "read",
+      "conditions": [
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:calendar-2026-11-15",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "tour-stamp-2026-11-15",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "济南站已点亮，记录已放入备忘录。"
+        }
+      ]
+    },
+    {
+      "id": "tour-light-2026-11-22",
+      "label": "点亮南昌",
+      "event": "read",
+      "conditions": [
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:calendar-2026-11-22",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "tour-stamp-2026-11-22",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "南昌站已点亮，记录已放入备忘录。"
+        }
+      ]
+    },
+    {
+      "id": "tour-light-2026-11-29",
+      "label": "点亮广州",
+      "event": "read",
+      "conditions": [
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:calendar-2026-11-29",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "tour-stamp-2026-11-29",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "广州站已点亮，记录已放入备忘录。"
+        }
+      ]
+    },
+    {
+      "id": "tour-light-2026-12-06",
+      "label": "点亮福州",
+      "event": "read",
+      "conditions": [
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:calendar-2026-12-06",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "tour-stamp-2026-12-06",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "福州站已点亮，记录已放入备忘录。"
+        }
+      ]
+    },
+    {
+      "id": "tour-complete",
+      "label": "六城集齐，解锁邀请",
+      "event": "read",
+      "conditions": [
+        {
+          "key": "read:file-diary",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:calendar-2026-11-01",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:calendar-2026-11-08",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:calendar-2026-11-15",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:calendar-2026-11-22",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:calendar-2026-11-29",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:calendar-2026-12-06",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "tour-invitation",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "六城已点亮！备忘录里有一封「六城已点亮｜剧场见」邀请。"
+        }
+      ]
+    },
+    {
+      "id": "explore-tour",
+      "label": "先查看六城巡演彩蛋",
+      "type": "action",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "打开备忘录的六城巡演清单，再到日历逐站点亮。读完观演邀请后即可归还手机。"
+        }
+      ]
+    },
+    {
+      "id": "tour-return-choice",
+      "label": "读完邀请，归还手机",
+      "event": "read",
+      "target": "tour-invitation",
+      "actions": [
+        {
+          "type": "choice",
+          "key": "return-after-diary",
+          "value": "把手机交还陆亚飞"
+        }
+      ]
     }
   ],
   "tests": [
@@ -995,7 +1343,7 @@
         {
           "event": "read",
           "target": "note-truth",
-          "password": "0404"
+          "password": "0709"
         },
         {
           "advanceMs": 1800
@@ -1061,7 +1409,7 @@
         {
           "event": "read",
           "target": "note-truth",
-          "password": "0404"
+          "password": "0709"
         },
         {
           "advanceMs": 1800
@@ -1120,7 +1468,7 @@
         {
           "event": "read",
           "target": "note-truth",
-          "password": "0404"
+          "password": "0709"
         },
         {
           "advanceMs": 1800
@@ -1182,7 +1530,7 @@
         {
           "event": "read",
           "target": "note-truth",
-          "password": "0404"
+          "password": "0709"
         },
         {
           "advanceMs": 1800
@@ -1233,7 +1581,7 @@
         {
           "event": "read",
           "target": "note-truth",
-          "password": "0404"
+          "password": "0709"
         },
         {
           "advanceMs": 1800
@@ -1297,7 +1645,7 @@
         {
           "event": "read",
           "target": "note-truth",
-          "password": "0404"
+          "password": "0709"
         },
         {
           "advanceMs": 1800
@@ -1372,7 +1720,7 @@
         {
           "event": "read",
           "target": "note-truth",
-          "password": "0404"
+          "password": "0709"
         },
         {
           "advanceMs": 1800
@@ -1452,7 +1800,7 @@
         {
           "event": "read",
           "target": "note-truth",
-          "password": "0404"
+          "password": "0709"
         },
         {
           "advanceMs": 1800
@@ -1488,6 +1836,224 @@
         "file-diary",
         "dinner-xiaomi-reply",
         "dinner-xiaomi-followup"
+      ]
+    },
+    {
+      "name": "六城宣传彩蛋：读日记后逐站点亮",
+      "steps": [
+        {
+          "event": "read",
+          "target": "note-tonight"
+        },
+        {
+          "event": "read",
+          "target": "note-trip"
+        },
+        {
+          "event": "read",
+          "target": "mail-cancel"
+        },
+        {
+          "event": "read",
+          "target": "note-care"
+        },
+        {
+          "event": "read",
+          "target": "bill-hospital"
+        },
+        {
+          "event": "read",
+          "target": "note-rain"
+        },
+        {
+          "event": "read",
+          "target": "note-truth",
+          "password": "0709"
+        },
+        {
+          "advanceMs": 1800
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "callEnded",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "read",
+          "target": "note-return"
+        },
+        {
+          "choose": "read-diary-first"
+        },
+        {
+          "event": "read",
+          "target": "file-diary"
+        },
+        {
+          "choose": "explore-tour"
+        },
+        {
+          "event": "read",
+          "target": "tour-checklist"
+        },
+        {
+          "event": "read",
+          "target": "calendar-2026-11-01"
+        },
+        {
+          "event": "read",
+          "target": "calendar-2026-11-08"
+        },
+        {
+          "event": "read",
+          "target": "calendar-2026-11-15"
+        },
+        {
+          "event": "read",
+          "target": "calendar-2026-11-22"
+        },
+        {
+          "event": "read",
+          "target": "calendar-2026-11-29"
+        },
+        {
+          "event": "read",
+          "target": "calendar-2026-12-06"
+        },
+        {
+          "event": "read",
+          "target": "tour-invitation"
+        },
+        {
+          "choose": "return-after-diary"
+        }
+      ],
+      "ending": "钱塘里 · 灯还亮着\n你在樱花大道把手机交还给陆亚飞。方小米也来到了江边。一个刚放下工牌，一个还背着生活的重担；她们终于愿意把各自的难处说完。\n后来，金月芳读到了方小米的日记。被隐瞒的愤怒没有被轻轻抹去，真心的照料也没有被一笔否定。她重新接纳了小米。\n赔偿和日子仍要一点点承担，三个人却不再独自面对。江上的风还在吹，家里的灯还亮着。",
+      "expectUnlocked": [
+        "note-rain",
+        "note-truth",
+        "note-return",
+        "file-diary",
+        "tour-checklist",
+        "tour-invitation",
+        "tour-stamp-2026-11-01",
+        "tour-stamp-2026-11-08",
+        "tour-stamp-2026-11-15",
+        "tour-stamp-2026-11-22",
+        "tour-stamp-2026-11-29",
+        "tour-stamp-2026-12-06"
+      ]
+    },
+    {
+      "name": "六城宣传彩蛋：提前看过日历仍可集齐",
+      "steps": [
+        {
+          "event": "read",
+          "target": "calendar-2026-11-01"
+        },
+        {
+          "event": "read",
+          "target": "calendar-2026-11-08"
+        },
+        {
+          "event": "read",
+          "target": "calendar-2026-11-15"
+        },
+        {
+          "event": "read",
+          "target": "calendar-2026-11-22"
+        },
+        {
+          "event": "read",
+          "target": "calendar-2026-11-29"
+        },
+        {
+          "event": "read",
+          "target": "calendar-2026-12-06"
+        },
+        {
+          "event": "read",
+          "target": "note-tonight"
+        },
+        {
+          "event": "read",
+          "target": "note-trip"
+        },
+        {
+          "event": "read",
+          "target": "mail-cancel"
+        },
+        {
+          "event": "read",
+          "target": "note-care"
+        },
+        {
+          "event": "read",
+          "target": "bill-hospital"
+        },
+        {
+          "event": "read",
+          "target": "note-rain"
+        },
+        {
+          "event": "read",
+          "target": "note-truth",
+          "password": "0709"
+        },
+        {
+          "advanceMs": 1800
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "callEnded",
+          "target": "call-xiaomi"
+        },
+        {
+          "event": "read",
+          "target": "note-return"
+        },
+        {
+          "choose": "read-diary-first"
+        },
+        {
+          "event": "read",
+          "target": "file-diary"
+        },
+        {
+          "choose": "explore-tour"
+        },
+        {
+          "event": "read",
+          "target": "tour-checklist"
+        },
+        {
+          "event": "read",
+          "target": "tour-invitation"
+        },
+        {
+          "choose": "return-after-diary"
+        }
+      ],
+      "ending": "钱塘里 · 灯还亮着\n你在樱花大道把手机交还给陆亚飞。方小米也来到了江边。一个刚放下工牌，一个还背着生活的重担；她们终于愿意把各自的难处说完。\n后来，金月芳读到了方小米的日记。被隐瞒的愤怒没有被轻轻抹去，真心的照料也没有被一笔否定。她重新接纳了小米。\n赔偿和日子仍要一点点承担，三个人却不再独自面对。江上的风还在吹，家里的灯还亮着。",
+      "expectUnlocked": [
+        "note-rain",
+        "note-truth",
+        "note-return",
+        "file-diary",
+        "tour-checklist",
+        "tour-invitation",
+        "tour-stamp-2026-11-01",
+        "tour-stamp-2026-11-08",
+        "tour-stamp-2026-11-15",
+        "tour-stamp-2026-11-22",
+        "tour-stamp-2026-11-29",
+        "tour-stamp-2026-12-06"
       ]
     }
   ]
