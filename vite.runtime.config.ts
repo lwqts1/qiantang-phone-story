@@ -21,9 +21,9 @@ export default defineConfig(({ command }) => ({
         icons: [{ src: "icon.svg", sizes: "any", type: "image/svg+xml" }],
       },
       workbox: {
+        maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
         clientsClaim: true,
         globPatterns: ["**/*.{js,css,html,svg,json,txt,png,jpg}"],
-        maximumFileSizeToCacheInBytes: 4000000,
       },
     }),
   ],
