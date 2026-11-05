@@ -18,6 +18,7 @@ async function note(page: Page, title: string) {
 }
 async function unlock(page: Page) {
   await page.getByRole('button', { name: '轻触解锁', exact: true }).click();
+  for (const digit of story.phone.passcode) await page.getByRole('button', { name: '密码键' + digit, exact: true }).click();
 }
 async function saved(page: Page, completedNode: string) {
   // IndexedDB writes are asynchronous: verify the actual save before reload.
@@ -190,4 +191,14 @@ test('日历每次打开默认选中北京时间今天', async ({ page }) => {
   await open(page, '日历');
   await expect(page.locator('.month-title')).toContainText('2026 年 11 月');
   await expect(page.locator('.calendar-grid button.selected')).toHaveText('5');
+});
+
+ test('锁屏密码1223', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: '轻触解锁', exact: true }).click();
+  for (const digit of '0000') await page.getByRole('button', { name: '密码键' + digit, exact: true }).click();
+  await expect(page.getByText('密码不正确', { exact: true })).toBeVisible();
+  await page.getByLabel('锁屏密码', { exact: true }).fill('1223');
+  await page.getByLabel('锁屏密码', { exact: true }).press('Enter');
+  await expect(page.getByRole('button', { name: '打开备忘录', exact: true })).toBeVisible();
 });
