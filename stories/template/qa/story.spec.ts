@@ -202,3 +202,22 @@ test('日历每次打开默认选中北京时间今天', async ({ page }) => {
   await page.getByLabel('锁屏密码', { exact: true }).press('Enter');
   await expect(page.getByRole('button', { name: '打开备忘录', exact: true })).toBeVisible();
 });
+
+test('海报墙纸在锁屏和桌面显示', async ({ page }) => {
+  await page.goto('/');
+  const screen = page.locator('.phone-screen');
+  await expect(screen).toHaveClass(/wallpaper-custom/);
+  expect(await screen.evaluate(el => el.style.backgroundImage.includes('data:image/jpeg;base64,'))).toBe(true);
+  expect(await page.evaluate(src => new Promise(resolve => {
+    const image = new Image();
+    image.onload = () => resolve(image.naturalWidth > 0);
+    image.onerror = () => resolve(false);
+    image.src = src;
+  }), story.phone.wallpaper)).toBe(true);
+  await expect(page.locator('.wallpaper-orb')).toHaveCount(0);
+  await screen.screenshot({ path: 'outputs/qiantang/poster-lock.png' });
+  await unlock(page);
+  await expect(screen).not.toHaveClass(/is-locked/);
+  await expect(screen).toHaveClass(/wallpaper-custom/);
+  await screen.screenshot({ path: 'outputs/qiantang/poster-home.png' });
+});

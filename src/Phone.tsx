@@ -305,7 +305,11 @@ function PhoneRuntime({
       document.removeEventListener("visibilitychange", refresh);
     };
   }, [liveClock]);
-  const displayTime = liveClock ? beijing.time : creator ? work.phone.time : s.time || work.phone.time;
+  const displayTime = liveClock
+    ? beijing.time
+    : creator
+      ? work.phone.time
+      : s.time || work.phone.time;
   const displayDate = liveClock ? beijing.date : s.date || work.phone.date;
   const plugin = getApp(app);
   useEffect(() => {
@@ -325,6 +329,9 @@ function PhoneRuntime({
         (_, i) => i !== index,
       ),
     });
+  const wallpaperImage = work.phone.wallpaper.startsWith("data:image/")
+    ? safeMedia(work.phone.wallpaper)
+    : "";
   if (!ready) return <div className="phone-loading">正在恢复进度…</div>;
   return (
     <div
@@ -334,7 +341,17 @@ function PhoneRuntime({
     >
       <KeyboardContext.Provider value={setKeyboard}>
         <div
-          className={`phone-screen wallpaper-${work.phone.wallpaper} ${locked ? "is-locked" : ""} ${app ? "in-app" : ""} ${keyboard ? "keyboard-open" : ""}`}
+          className={`phone-screen wallpaper-${wallpaperImage ? "custom" : work.phone.wallpaper} ${locked ? "is-locked" : ""} ${app ? "in-app" : ""} ${keyboard ? "keyboard-open" : ""}`}
+          style={
+            wallpaperImage
+              ? {
+                  backgroundImage: `url("${wallpaperImage}")`,
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
+                }
+              : undefined
+          }
           data-app={app}
           onDragStart={(e) => e.preventDefault()}
           onPointerDown={(e) => {
@@ -400,8 +417,12 @@ function PhoneRuntime({
             }
           }}
         >
-          <div className="wallpaper-orb orb-one" />
-          <div className="wallpaper-orb orb-two" />
+          {!wallpaperImage && (
+            <>
+              <div className="wallpaper-orb orb-one" />
+              <div className="wallpaper-orb orb-two" />
+            </>
+          )}
           <div className="status-bar">
             <button
               onClick={() =>
