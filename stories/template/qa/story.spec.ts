@@ -177,3 +177,17 @@ test('夏季主线解锁六城宣传，集齐后可归还手机', async ({ page 
   await page.getByRole('button', { name: '把手机交还陆亚飞', exact: true }).click();
   await expect(page.locator('.story-overlay.ending p')).toHaveText(ending);
 });
+
+test('日历每次打开默认选中北京时间今天', async ({ page }) => {
+  await page.clock.install({ time: new Date('2026-11-04T16:30:00Z') });
+  await page.goto('/');
+  await unlock(page);
+  await open(page, '日历');
+  await expect(page.locator('.month-title')).toContainText('2026 年 11 月');
+  await expect(page.locator('.calendar-grid button.selected')).toHaveText('5');
+  await page.getByRole('button', { name: '下个月', exact: true }).click();
+  await open(page, '备忘录');
+  await open(page, '日历');
+  await expect(page.locator('.month-title')).toContainText('2026 年 11 月');
+  await expect(page.locator('.calendar-grid button.selected')).toHaveText('5');
+});

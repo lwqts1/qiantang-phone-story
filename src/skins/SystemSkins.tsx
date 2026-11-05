@@ -1,5 +1,6 @@
 export { WeatherSkin, HealthSkin } from "./CalibratedSystemApps";
 import { AudioPlayer, useTrack } from "../audio";
+import { beijingClock } from "../beijingClock";
 import { useSkinState } from "../skinState";
 import {
   Calendar,
@@ -409,9 +410,10 @@ export function NotesSkin(p: Props) {
   );
 }
 export function CalendarSkin(p: Props) {
-  const [month, setMonth] = useState(8),
-    [year, setYear] = useState(2026),
-    [day, setDay] = useState(1);
+  const [today] = useState(() => beijingClock().date.split("-").map(Number));
+  const [month, setMonth] = useState(today[1] - 1),
+    [year, setYear] = useState(today[0]),
+    [day, setDay] = useState(today[2]);
   const prefix = `${year}-${String(month + 1).padStart(2, "0")}`;
   const list = p.items.filter((i) =>
     i.time.startsWith(`${prefix}-${String(day).padStart(2, "0")}`),
