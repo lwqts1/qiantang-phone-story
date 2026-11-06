@@ -17,6 +17,15 @@
   },
   "installedApps": [
     {
+      "id": "weibo",
+      "name": "微博",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
       "id": "notes",
       "name": "备忘录",
       "installed": true,
@@ -136,15 +145,6 @@
     {
       "id": "photos",
       "name": "相册",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    {
-      "id": "weibo",
-      "name": "微博",
       "installed": true,
       "visible": true,
       "dock": false,

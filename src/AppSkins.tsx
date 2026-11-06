@@ -98,7 +98,6 @@ function MessageList({
 }) {
   return (
     <div className={`skin-messages ${whatsapp ? "wa-wallpaper" : ""}`}>
-      <div className="skin-date">{items[0]?.time.slice(0, 10)}</div>
       {items.map((i) => (
         <div
           key={i.id}
@@ -122,7 +121,7 @@ function MessageList({
               i.body
             )}
             <small className={whatsapp ? undefined : "wx-message-time"}>
-              {i.time.slice(-5)}{" "}
+              {i.time}{" "}
               {whatsapp && i.outgoing && <CheckCheck size={11} />}
             </small>
           </button>

@@ -221,3 +221,37 @@ test('海报墙纸在锁屏和桌面显示', async ({ page }) => {
   await expect(screen).toHaveClass(/wallpaper-custom/);
   await screen.screenshot({ path: 'outputs/qiantang/poster-home.png' });
 });
+
+test('每条微信消息显示完整日期时间', async ({ page }) => {
+  await page.goto('/');
+  await unlock(page);
+  for (const chat of story.chats.filter((c: { messages: { hidden?: boolean }[] }) => c.messages.some(m => !m.hidden))) {
+    await open(page, '微信');
+    await page.locator('.wx-chat-row').filter({ hasText: chat.title }).click();
+    const times = page.locator('.wx-message-time');
+    expect(await times.count()).toBeGreaterThan(0);
+    for (const time of await times.all()) {
+      await expect(time).toBeVisible();
+      await expect(time).toHaveText(/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}\s*$/);
+    }
+  }
+  await page.locator('.phone-screen').screenshot({ path: 'outputs/qiantang/chat-dates.png' });
+});
+
+test('旧存档恢复微博桌面图标', async ({ page }) => {
+  await page.goto('/');
+  await unlock(page);
+  await expect(page.getByRole('button', { name: '打开微博', exact: true })).toBeVisible();
+  await page.evaluate(id => {
+    const key = 'foundphone-layout-v1:' + id;
+    const layout = JSON.parse(localStorage.getItem(key)!);
+    Object.assign(layout.apps.find((a: { id: string }) => a.id === 'weibo'), { installed: false, visible: false, folder: '旧文件夹' });
+    layout.previewLayoutRevision = 0;
+    localStorage.setItem(key, JSON.stringify(layout));
+  }, story.id);
+  await page.reload();
+  await unlock(page);
+  await expect(page.getByRole('button', { name: '打开微博', exact: true })).toBeVisible();
+  await page.getByRole('button', { name: '打开微博', exact: true }).click();
+  await expect(page.locator('.weibo-ui')).toBeVisible();
+});

@@ -118,6 +118,25 @@ export function validateLayout(raw: unknown, input: Work) {
     ];
     layout.previewLayoutRevision = 1;
   }
+  // Restore Weibo once for existing story saves that hid or uninstalled it.
+  if (w.id === "qiantang-riverside-phone" && layout.previewLayoutRevision < 1) {
+    const weibo = layout.apps.find((app) => app.id === "weibo");
+    if (weibo) {
+      Object.assign(weibo, {
+        installed: true,
+        visible: true,
+        dock: false,
+        folder: "",
+      });
+      for (const [id, position] of Object.entries(layout.positions)) {
+        if (position.page === 0 && position.x === 0 && position.y === 0)
+          delete layout.positions[id];
+      }
+      layout.positions.weibo = { page: 0, x: 0, y: 0 };
+      layout.order = ["weibo", ...layout.order.filter((id) => id !== "weibo")];
+      layout.previewLayoutRevision = 1;
+    }
+  }
   const entries = homeEntries(layout),
     packed = packHome(entries, layout.positions);
   for (const entry of entries) {
