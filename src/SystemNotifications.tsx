@@ -28,12 +28,12 @@ export function SystemNotifications({
 }) {
   const [expanded, setExpanded] = useState(false);
   const entries = notices.map((text, index) => ({ text, index })).reverse();
-  const shown = compact && !expanded ? entries.slice(0, 1) : entries;
+  const shown = compact && !expanded ? entries.slice(0, 2) : entries;
   return (
     <div
       className={
         "device-notices " +
-        (compact && !expanded && notices.length > 1 ? "notice-stacked" : "")
+        (compact && !expanded && notices.length > 2 ? "notice-stacked" : "")
       }
     >
       <div className="notice-cards">
@@ -76,7 +76,7 @@ export function SystemNotifications({
           );
         })}
       </div>
-      {compact && notices.length > 1 && (
+      {compact && notices.length > 2 && (
         <button
           className="notice-expand"
           onClick={() => setExpanded(!expanded)}

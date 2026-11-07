@@ -255,3 +255,14 @@ test('旧存档恢复微博桌面图标', async ({ page }) => {
   await page.getByRole('button', { name: '打开微博', exact: true }).click();
   await expect(page.locator('.weibo-ui')).toBeVisible();
 });
+
+test('锁屏同时显示两条提醒', async ({ page }) => {
+  await page.goto('/');
+  await expect(page.locator('.lock-screen .device-notice')).toHaveCount(2);
+  for (const card of await page.locator('.lock-screen .device-notice').all()) {
+    await expect(card).toBeVisible();
+    await expect(card).toBeInViewport();
+  }
+  await expect(page.getByRole('button', { name: '2 条通知', exact: true })).toHaveCount(0);
+  await page.locator('.phone-screen').screenshot({ path: 'outputs/qiantang/two-lock-notices.png' });
+});
